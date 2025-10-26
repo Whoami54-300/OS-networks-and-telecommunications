@@ -1,0 +1,30 @@
+cd bin
+dir
+task4.bat "C:\Windows" exe
+task5.bat
+-
+task5.bat
+10
+3
+-5
+-
+task6.bat "C:Windows"
+task8.bat 10
+task7.bat "C:\Test\A" "C:\Test\B"
+cd .
+cd ..
+mkdit TestA
+mkdir TestA
+mkdir TestB
+echo file1 > TestA\file1.txt
+echo file2 > TestA\file2.txt
+echo file3 > TestA\file3.txt
+echo file2 > TestB\file2.txt
+echo file3 > TestB\file3.txt
+echo file4 > TestB\file4.txt
+cd bin
+task7.bat "..\TestA" "..\TestB"
+doskey \history
+doskey /history
+cd ..
+doskey /history > commands_history.txt
