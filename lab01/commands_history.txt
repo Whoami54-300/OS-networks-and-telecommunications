@@ -1,0 +1,91 @@
+﻿try { . "c:\Users\maxim\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+git config --global user.name "Maxim Kharchenko"
+git config --global user.email "maxim28032020@gmail.com"
+git init
+git status
+git branch -M main
+git remote add origin https://github.com/Whoami54-300/-.git
+git remote -V
+git remote -v
+git ls-remote origin
+cmd /c 'copy con README.md'
+cmd /c 'type README.md'
+git add README.md
+git commit -m "добавлен README.md"
+git status
+git push -u origin main
+git status
+chcp 866
+cmd /c 'copy con README.md'
+cmd /c 'type README.md'
+git add README.md
+git commit -m "переделан комит"
+git status
+git push
+cmd /c 'copy con spisok.txt'
+cmd /c 'code spisok.txt'
+cmd /c 'type spisok.txt'
+cmd /c 'sort spisok.txt > spisok_sort.txt'
+cmd /c 'type spisok_sort.txt'
+cmd /c 'type spisok_sort.txt | more'
+git add .
+git commit -m "spisok | spisok_sort"
+git status
+cmd /c "dir /? > help_DIR.txt"
+cmd /c "copy /? > help_COPY.txt"
+cmd /c "xcopy /? > help_XCOPY.txt"
+git add .
+git commit -m "Зад. 5: добавление DIR/COPY/XCOPY"
+git push
+cmd /c "dir "%WINDIR%" /A: S-D /O:S | more"
+cmd /c 'dir "%WINDIR%" /A: S-D /O:S | more'
+cmd /c 'dir "WINDIR" /A: S-D /O:S > out_1_6.txt'
+cmd /c 'dir "%WINDIR%" /A:H /O:D > out_2_7.txt'
+cmd /c 'dir "%WINDIR%" /A:RD /O:N > out_3_8.txt'
+cmd /c 'dir "%WINDIR%\*.bmp" /S /A:R /O:S > out_4_9.txt'
+cmd /c 'dir "%WINDIR%\*.jpg" /S /O:N > out_5_10.txt'
+git add .
+git commit -m "Зад. 6"
+cmd /c 'md "%CD%\WinGrafika" 2>nul'
+cmd /c 'xcopy "%WINDIR%\*.bmp" "%CD%\WinGrafika" /I /Y'
+cmd /c 'xcopy "%WINDIR%\*.jpg" "%CD%\WinGrafika" /I /Y'
+cmd /c 'xcopy "%WINDIR%\*.jpeg" "%CD%\WinGrafika" /I /Y'
+cmd /c 'xcopy "%WINDIR%\*.png" "%CD%\WinGrafika" /I /Y'
+cmd /c 'xcopy "%WINDIR%\*.gif" "%CD%\WinGrafika" /I /Y'
+cmd /c 'doskey /history'
+Get-History | Select-Object -ExpandProperty CommandLine
+cmd /c 'md "%CD%\WinEx" 2>nul'
+xcopy '"%WINDIR%\*.exe" "%CD%\WinEx" /I /Y'
+xcopy '"%WINDIR%\*.exe" "%CD%\WinEx" /I /Y /S'
+git status
+git add .
+git commit -m "зад. 7 и 8"
+git push
+Get-History | Select-Object -ExpandProperty CommandLine | Set-Content -Encoding utf8 .\commands_history.txt
+git status
+git add commands_history.txt
+git commit -m "добавление истории команд"
+git status
+git push
+cmd /c 'type README.md'
+cmd /c 'md "%CD%\WinGrafika" 2>nul'
+foreach ($ext in 'bmp','jpg','jpeg','png','gif') {
+cmd /c ('xcopy "%WINDIR%\Web\*.' + $ext + '" "%CD%\WinGrafika" /I /Y /S')
+}
+cmd /c 'dir "%CD%\WinGrafika" /b /a:-d | find /c /v ""'
+git log --oneline --decorate -n 
+git log --oneline --decorate -n 1
+git log --oneline
+git status
+git add .
+git commit -m "переделка зад 7"
+git status
+cmd /c 'md "%CD%\WinEx" 2>nul'; cmd /c 'xcopy "%WINDIR%\*.exe" "%CD%\WinEx" /I /Y'
+git add .
+git commit -m "переделка зад 8"
+git status
+git log
+git log --oneline
+git push
+git status
+git log --oneline --decorate --graph --all

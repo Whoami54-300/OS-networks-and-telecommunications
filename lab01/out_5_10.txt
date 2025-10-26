@@ -1,0 +1,471 @@
+ Том в устройстве C имеет метку OS
+ Серийный номер тома: 9E13-2AC0
+
+ Содержимое папки C:\Windows\ASUS\Wallpapers
+
+12.08.2024  14:09         7 531 021 ASUS.png.JPG
+12.08.2024  14:09         8 991 874 ASUS2.png.JPG
+               2 файлов     16 522 895 байт
+
+ Содержимое папки C:\Windows\Microsoft.NET\Framework\v4.0.30319\ASP.NETWebAdminFiles\Images
+
+01.04.2024  13:24            22 500 ASPdotNET_logo.jpg
+01.04.2024  13:24             8 260 darkBlue_GRAD.jpg
+01.04.2024  13:24             1 409 help.jpg
+01.04.2024  13:24                49 security_watermark.jpg
+01.04.2024  13:24             8 683 topGradRepeat.jpg
+               5 файлов         40 901 байт
+
+ Содержимое папки C:\Windows\Microsoft.NET\Framework64\v4.0.30319\ASP.NETWebAdminFiles\Images
+
+01.04.2024  13:24            22 500 ASPdotNET_logo.jpg
+01.04.2024  13:24             8 260 darkBlue_GRAD.jpg
+01.04.2024  13:24             1 409 help.jpg
+01.04.2024  13:24                49 security_watermark.jpg
+01.04.2024  13:24             8 683 topGradRepeat.jpg
+               5 файлов         40 901 байт
+
+ Содержимое папки C:\Windows\SystemApps\MicrosoftWindows.Client.AIX_cw5n1h2txyewy\Recall\Assets
+
+15.08.2025  01:36            53 585 consent_background_dark.jpg
+15.08.2025  01:36            55 437 consent_background_light.jpg
+               2 файлов        109 022 байт
+
+ Содержимое папки C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\DesktopSpotlight\Assets\Images
+
+01.04.2024  13:22         2 791 601 image_0.jpg
+01.04.2024  13:22         2 136 665 image_1.jpg
+01.04.2024  13:22         1 860 845 image_2.jpg
+01.04.2024  13:22         1 945 591 image_3.jpg
+               4 файлов      8 734 702 байт
+
+ Содержимое папки C:\Windows\SystemApps\MicrosoftWindows.Client.FileExp_cw5n1h2txyewy\FileExplorerExtensions\Assets\images\contrast-black
+
+01.04.2024  13:22            53 427 GalleryColdStateLeft.jpg
+01.04.2024  13:22            44 235 GalleryColdStateRight.jpg
+               2 файлов         97 662 байт
+
+ Содержимое папки C:\Windows\SystemApps\MicrosoftWindows.Client.FileExp_cw5n1h2txyewy\FileExplorerExtensions\Assets\images\contrast-standard\theme-dark
+
+01.04.2024  13:22            27 588 GalleryColdStateLeft.jpg
+01.04.2024  13:22            44 445 GalleryColdStateRight.jpg
+               2 файлов         72 033 байт
+
+ Содержимое папки C:\Windows\SystemApps\MicrosoftWindows.Client.FileExp_cw5n1h2txyewy\FileExplorerExtensions\Assets\images\contrast-standard\theme-light
+
+01.04.2024  13:22            53 427 GalleryColdStateLeft.jpg
+01.04.2024  13:22            44 235 GalleryColdStateRight.jpg
+               2 файлов         97 662 байт
+
+ Содержимое папки C:\Windows\SystemApps\MicrosoftWindows.Client.FileExp_cw5n1h2txyewy\FileExplorerExtensions\Assets\images\contrast-white
+
+01.04.2024  13:22            53 427 GalleryColdStateLeft.jpg
+01.04.2024  13:22            44 235 GalleryColdStateRight.jpg
+               2 файлов         97 662 байт
+
+ Содержимое папки C:\Windows\SystemApps\MicrosoftWindows.Client.Photon_cw5n1h2txyewy\Public\wsxpacks\Account\assets\assets\images
+
+01.04.2024  13:22           385 462 copilot-upsell.jpg
+01.04.2024  13:22           897 999 xbox-acquisition-upsell.jpg
+01.04.2024  13:22            43 226 xbox-inline-purchase-banner.jpg
+               3 файлов      1 326 687 байт
+
+ Содержимое папки C:\Windows\SystemApps\SxS\MicrosoftWindows.54792954.Filons_cw5n1h2txyewy\FileExplorerExtensions\Assets\images\contrast-black
+
+15.08.2025  10:46            53 427 GalleryColdStateLeft.jpg
+15.08.2025  10:46            44 235 GalleryColdStateRight.jpg
+               2 файлов         97 662 байт
+
+ Содержимое папки C:\Windows\SystemApps\SxS\MicrosoftWindows.54792954.Filons_cw5n1h2txyewy\FileExplorerExtensions\Assets\images\contrast-standard\theme-dark
+
+15.08.2025  10:46            27 588 GalleryColdStateLeft.jpg
+15.08.2025  10:46            44 445 GalleryColdStateRight.jpg
+               2 файлов         72 033 байт
+
+ Содержимое папки C:\Windows\SystemApps\SxS\MicrosoftWindows.54792954.Filons_cw5n1h2txyewy\FileExplorerExtensions\Assets\images\contrast-standard\theme-light
+
+15.08.2025  10:46            53 427 GalleryColdStateLeft.jpg
+15.08.2025  10:46            44 235 GalleryColdStateRight.jpg
+               2 файлов         97 662 байт
+
+ Содержимое папки C:\Windows\SystemApps\SxS\MicrosoftWindows.54792954.Filons_cw5n1h2txyewy\FileExplorerExtensions\Assets\images\contrast-white
+
+15.08.2025  10:46            53 427 GalleryColdStateLeft.jpg
+15.08.2025  10:46            44 235 GalleryColdStateRight.jpg
+               2 файлов         97 662 байт
+
+ Содержимое папки C:\Windows\Web\4K\Wallpaper\Windows
+
+01.04.2024  13:22           542 091 img0_1920x1200.jpg
+01.04.2024  13:22           518 265 img19_1920x1200.jpg
+               2 файлов      1 060 356 байт
+
+ Содержимое папки C:\Windows\Web\Screen
+
+01.04.2024  13:22         1 033 330 img100.jpg
+01.04.2024  13:22           833 851 img101.jpg
+01.04.2024  13:22         1 389 605 img102.jpg
+01.04.2024  13:22         1 073 197 img103.jpg
+01.04.2024  13:22           680 031 img104.jpg
+01.04.2024  13:22            36 632 img105.jpg
+               6 файлов      5 046 646 байт
+
+ Содержимое папки C:\Windows\Web\touchkeyboard
+
+01.04.2024  13:22           433 484 TouchKeyboardThemeDark000.jpg
+01.04.2024  13:22           149 335 TouchKeyboardThemeDark001.jpg
+01.04.2024  13:22           216 674 TouchKeyboardThemeDark002.jpg
+01.04.2024  13:22           122 749 TouchKeyboardThemeDark003.jpg
+01.04.2024  13:22           584 174 TouchKeyboardThemeLight000.jpg
+01.04.2024  13:22           155 595 TouchKeyboardThemeLight001.jpg
+01.04.2024  13:22           241 590 TouchKeyboardThemeLight002.jpg
+01.04.2024  13:22           120 795 TouchKeyboardThemeLight003.jpg
+               8 файлов      2 024 396 байт
+
+ Содержимое папки C:\Windows\Web\Wallpaper\Spotlight
+
+01.04.2024  13:22         1 602 752 img14.jpg
+01.04.2024  13:22            23 615 img50.jpg
+               2 файлов      1 626 367 байт
+
+ Содержимое папки C:\Windows\Web\Wallpaper\ThemeA
+
+01.04.2024  13:22           826 734 img20.jpg
+01.04.2024  13:22           833 851 img21.jpg
+01.04.2024  13:22           760 748 img22.jpg
+01.04.2024  13:22           907 112 img23.jpg
+               4 файлов      3 328 445 байт
+
+ Содержимое папки C:\Windows\Web\Wallpaper\ThemeB
+
+01.04.2024  13:22         1 150 704 img24.jpg
+01.04.2024  13:22         1 019 877 img25.jpg
+01.04.2024  13:22           985 873 img26.jpg
+01.04.2024  13:22         1 060 216 img27.jpg
+               4 файлов      4 216 670 байт
+
+ Содержимое папки C:\Windows\Web\Wallpaper\ThemeC
+
+01.04.2024  13:22         1 111 289 img28.jpg
+01.04.2024  13:22         1 221 892 img29.jpg
+01.04.2024  13:22         1 068 913 img30.jpg
+01.04.2024  13:22         1 156 806 img31.jpg
+               4 файлов      4 558 900 байт
+
+ Содержимое папки C:\Windows\Web\Wallpaper\ThemeD
+
+01.04.2024  13:22         1 077 710 img32.jpg
+01.04.2024  13:22         1 076 822 img33.jpg
+01.04.2024  13:22           989 305 img34.jpg
+01.04.2024  13:22         1 087 653 img35.jpg
+               4 файлов      4 231 490 байт
+
+ Содержимое папки C:\Windows\Web\Wallpaper\Windows
+
+01.04.2024  13:22         1 602 752 img0.jpg
+01.04.2024  13:22         1 383 556 img19.jpg
+               2 файлов      2 986 308 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_microsoft-windows-mediaplayer-core_31bf3856ad364e35_10.0.26100.5074_none_a75d908dfefa13f5
+
+28.03.2024  18:50             2 979 DMR_120.jpg
+28.03.2024  18:47             1 220 DMR_48.jpg
+               2 файлов          4 199 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_microsoft-windows-r..ent-content-neutral_31bf3856ad364e35_10.0.26100.1_none_f5700c930f20a55e
+
+26.05.2024  14:09            11 298 DefaultAd.jpg
+26.05.2024  14:09            99 781 Picture.jpg
+               2 файлов        111 079 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_microsoft-windows-s..l-wallpaper-windows_31bf3856ad364e35_10.0.26100.1_none_d805ce9518fe5964
+
+01.04.2024  13:22         1 602 752 img0.jpg
+01.04.2024  13:22         1 383 556 img19.jpg
+               2 файлов      2 986 308 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_microsoft-windows-s..paper-windows-crops_31bf3856ad364e35_10.0.26100.1_none_8ddab0d688363e26
+
+01.04.2024  13:22           542 091 img0_1920x1200.jpg
+01.04.2024  13:22           518 265 img19_1920x1200.jpg
+               2 файлов      1 060 356 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_microsoft-windows-s..wallpaper-spotlight_31bf3856ad364e35_10.0.26100.1_none_3eef724b332a3bb5
+
+01.04.2024  13:22         1 602 752 img14.jpg
+01.04.2024  13:22            23 615 img50.jpg
+               2 файлов      1 626 367 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_microsoft-windows-shell-wallpaper-themea_31bf3856ad364e35_10.0.26100.1_none_d3c965ed0d7f5b0d
+
+01.04.2024  13:22           826 734 img20.jpg
+01.04.2024  13:22           833 851 img21.jpg
+01.04.2024  13:22           760 748 img22.jpg
+01.04.2024  13:22           907 112 img23.jpg
+               4 файлов      3 328 445 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_microsoft-windows-shell-wallpaper-themeb_31bf3856ad364e35_10.0.26100.1_none_d3c94f250d7f74ae
+
+01.04.2024  13:22         1 150 704 img24.jpg
+01.04.2024  13:22         1 019 877 img25.jpg
+01.04.2024  13:22           985 873 img26.jpg
+01.04.2024  13:22         1 060 216 img27.jpg
+               4 файлов      4 216 670 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_microsoft-windows-shell-wallpaper-themec_31bf3856ad364e35_10.0.26100.1_none_d3c9385d0d7f8e4f
+
+01.04.2024  13:22         1 111 289 img28.jpg
+01.04.2024  13:22         1 221 892 img29.jpg
+01.04.2024  13:22         1 068 913 img30.jpg
+01.04.2024  13:22         1 156 806 img31.jpg
+               4 файлов      4 558 900 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_microsoft-windows-shell-wallpaper-themed_31bf3856ad364e35_10.0.26100.1_none_d3c921950d7fa7f0
+
+01.04.2024  13:22         1 077 710 img32.jpg
+01.04.2024  13:22         1 076 822 img33.jpg
+01.04.2024  13:22           989 305 img34.jpg
+01.04.2024  13:22         1 087 653 img35.jpg
+               4 файлов      4 231 490 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_microsoft-windows-t..nbackgrounds-client_31bf3856ad364e35_10.0.26100.1_none_da0a6bf461fe5775
+
+01.04.2024  13:22         1 033 330 img100.jpg
+01.04.2024  13:22           833 851 img101.jpg
+01.04.2024  13:22         1 389 605 img102.jpg
+01.04.2024  13:22         1 073 197 img103.jpg
+01.04.2024  13:22           680 031 img104.jpg
+01.04.2024  13:22            36 632 img105.jpg
+               6 файлов      5 046 646 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_microsoft-windows-t..ouchkeyboard-client_31bf3856ad364e35_10.0.26100.1_none_800b777e2c1b772d
+
+01.04.2024  13:22           433 484 TouchKeyboardThemeDark000.jpg
+01.04.2024  13:22           149 335 TouchKeyboardThemeDark001.jpg
+01.04.2024  13:22           216 674 TouchKeyboardThemeDark002.jpg
+01.04.2024  13:22           122 749 TouchKeyboardThemeDark003.jpg
+01.04.2024  13:22           584 174 TouchKeyboardThemeLight000.jpg
+01.04.2024  13:22           155 595 TouchKeyboardThemeLight001.jpg
+01.04.2024  13:22           241 590 TouchKeyboardThemeLight002.jpg
+01.04.2024  13:22           120 795 TouchKeyboardThemeLight003.jpg
+               8 файлов      2 024 396 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_microsoft-windows-wmpnss-service_31bf3856ad364e35_10.0.26100.1_none_007a743337203bf3
+
+28.03.2024  18:50             4 743 wmpnss_color120.jpg
+28.03.2024  18:50             1 859 wmpnss_color32.jpg
+28.03.2024  18:50             2 320 wmpnss_color48.jpg
+               3 файлов          8 922 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_microsoft-windows-wmpnss-service_31bf3856ad364e35_10.0.26100.5074_none_9f7a99417e73fbce
+
+28.03.2024  18:50             4 743 wmpnss_color120.jpg
+28.03.2024  18:50             1 859 wmpnss_color32.jpg
+28.03.2024  18:50             2 320 wmpnss_color48.jpg
+               3 файлов          8 922 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_netfx4-aspnet_webadmin_images_b03f5f7f11d50a3a_4.0.15912.0_none_34e75507b760b6ac
+
+01.04.2024  13:22            22 500 ASPdotNET_logo.jpg
+01.04.2024  13:22             8 260 darkBlue_GRAD.jpg
+01.04.2024  13:22             1 409 help.jpg
+01.04.2024  13:22                49 security_watermark.jpg
+01.04.2024  13:22             8 683 topGradRepeat.jpg
+               5 файлов         40 901 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_userexperience-aix_31bf3856ad364e35_10.0.26100.6584_none_3af1d10476f1f3a8\AIX\Recall\Assets
+
+15.08.2025  01:36            53 585 consent_background_dark.jpg
+15.08.2025  01:36            55 437 consent_background_light.jpg
+               2 файлов        109 022 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_userexperience-aix_31bf3856ad364e35_10.0.26100.6899_none_3ad1efa27709e0f7\AIX\Recall\Assets
+
+15.08.2025  01:36            53 585 consent_background_dark.jpg
+15.08.2025  01:36            55 437 consent_background_light.jpg
+               2 файлов        109 022 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_userexperience-desktop_31bf3856ad364e35_10.0.26100.1591_none_c815e77f1a5104dd\CBS\DesktopSpotlight\Assets\Images
+
+03.10.2025  04:56         2 791 601 image_0.jpg
+03.10.2025  04:56         2 136 665 image_1.jpg
+03.10.2025  04:56         1 860 845 image_2.jpg
+03.10.2025  04:56         1 945 591 image_3.jpg
+               4 файлов      8 734 702 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_userexperience-desktop_31bf3856ad364e35_10.0.26100.5074_none_c849b9c71a2a87f9\CBS\DesktopSpotlight\Assets\Images
+
+01.04.2024  13:22         2 791 601 image_0.jpg
+01.04.2024  13:22         2 136 665 image_1.jpg
+01.04.2024  13:22         1 860 845 image_2.jpg
+01.04.2024  13:22         1 945 591 image_3.jpg
+               4 файлов      8 734 702 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_userexperience-desktop_31bf3856ad364e35_10.0.26100.6725_none_c7f8f3ff1a67e3a5\CBS\DesktopSpotlight\Assets\Images
+
+01.04.2024  13:22         2 791 601 image_0.jpg
+01.04.2024  13:22         2 136 665 image_1.jpg
+01.04.2024  13:22         1 860 845 image_2.jpg
+01.04.2024  13:22         1 945 591 image_3.jpg
+               4 файлов      8 734 702 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_userexperience-fileexp_31bf3856ad364e35_10.0.26100.1591_none_ed01032043c8051c\FileExp\FileExplorerExtensions\Assets\images\contrast-black
+
+03.10.2025  04:56            53 427 GalleryColdStateLeft.jpg
+03.10.2025  04:56            44 235 GalleryColdStateRight.jpg
+               2 файлов         97 662 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_userexperience-fileexp_31bf3856ad364e35_10.0.26100.1591_none_ed01032043c8051c\FileExp\FileExplorerExtensions\Assets\images\contrast-standard\theme-dark
+
+03.10.2025  04:56            27 588 GalleryColdStateLeft.jpg
+03.10.2025  04:56            44 445 GalleryColdStateRight.jpg
+               2 файлов         72 033 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_userexperience-fileexp_31bf3856ad364e35_10.0.26100.1591_none_ed01032043c8051c\FileExp\FileExplorerExtensions\Assets\images\contrast-standard\theme-light
+
+03.10.2025  04:56            53 427 GalleryColdStateLeft.jpg
+03.10.2025  04:56            44 235 GalleryColdStateRight.jpg
+               2 файлов         97 662 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_userexperience-fileexp_31bf3856ad364e35_10.0.26100.1591_none_ed01032043c8051c\FileExp\FileExplorerExtensions\Assets\images\contrast-white
+
+03.10.2025  04:56            53 427 GalleryColdStateLeft.jpg
+03.10.2025  04:56            44 235 GalleryColdStateRight.jpg
+               2 файлов         97 662 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_userexperience-fileexp_31bf3856ad364e35_10.0.26100.5074_none_ed34d56843a18838\FileExp\FileExplorerExtensions\Assets\images\contrast-black
+
+01.04.2024  13:22            53 427 GalleryColdStateLeft.jpg
+01.04.2024  13:22            44 235 GalleryColdStateRight.jpg
+               2 файлов         97 662 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_userexperience-fileexp_31bf3856ad364e35_10.0.26100.5074_none_ed34d56843a18838\FileExp\FileExplorerExtensions\Assets\images\contrast-standard\theme-dark
+
+01.04.2024  13:22            27 588 GalleryColdStateLeft.jpg
+01.04.2024  13:22            44 445 GalleryColdStateRight.jpg
+               2 файлов         72 033 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_userexperience-fileexp_31bf3856ad364e35_10.0.26100.5074_none_ed34d56843a18838\FileExp\FileExplorerExtensions\Assets\images\contrast-standard\theme-light
+
+01.04.2024  13:22            53 427 GalleryColdStateLeft.jpg
+01.04.2024  13:22            44 235 GalleryColdStateRight.jpg
+               2 файлов         97 662 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_userexperience-fileexp_31bf3856ad364e35_10.0.26100.5074_none_ed34d56843a18838\FileExp\FileExplorerExtensions\Assets\images\contrast-white
+
+01.04.2024  13:22            53 427 GalleryColdStateLeft.jpg
+01.04.2024  13:22            44 235 GalleryColdStateRight.jpg
+               2 файлов         97 662 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_userexperience-fileexp_31bf3856ad364e35_10.0.26100.6725_none_ece40fa043dee3e4\FileExp\FileExplorerExtensions\Assets\images\contrast-black
+
+03.10.2025  04:56            53 427 GalleryColdStateLeft.jpg
+03.10.2025  04:56            44 235 GalleryColdStateRight.jpg
+               2 файлов         97 662 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_userexperience-fileexp_31bf3856ad364e35_10.0.26100.6725_none_ece40fa043dee3e4\FileExp\FileExplorerExtensions\Assets\images\contrast-standard\theme-dark
+
+03.10.2025  04:56            27 588 GalleryColdStateLeft.jpg
+03.10.2025  04:56            44 445 GalleryColdStateRight.jpg
+               2 файлов         72 033 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_userexperience-fileexp_31bf3856ad364e35_10.0.26100.6725_none_ece40fa043dee3e4\FileExp\FileExplorerExtensions\Assets\images\contrast-standard\theme-light
+
+03.10.2025  04:56            53 427 GalleryColdStateLeft.jpg
+03.10.2025  04:56            44 235 GalleryColdStateRight.jpg
+               2 файлов         97 662 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_userexperience-fileexp_31bf3856ad364e35_10.0.26100.6725_none_ece40fa043dee3e4\FileExp\FileExplorerExtensions\Assets\images\contrast-white
+
+03.10.2025  04:56            53 427 GalleryColdStateLeft.jpg
+03.10.2025  04:56            44 235 GalleryColdStateRight.jpg
+               2 файлов         97 662 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_userexperience-photon_31bf3856ad364e35_10.0.26100.1591_none_faf85d9f2170dfcf\Photon\Public\wsxpacks\Account\assets\assets\images
+
+03.10.2025  04:56           385 462 copilot-upsell.jpg
+03.10.2025  04:56           897 999 xbox-acquisition-upsell.jpg
+03.10.2025  04:56            43 226 xbox-inline-purchase-banner.jpg
+               3 файлов      1 326 687 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_userexperience-photon_31bf3856ad364e35_10.0.26100.5074_none_fb2c2fe7214a62eb\Photon\Public\wsxpacks\Account\assets\assets\images
+
+01.04.2024  13:22           385 462 copilot-upsell.jpg
+01.04.2024  13:22           897 999 xbox-acquisition-upsell.jpg
+01.04.2024  13:22            43 226 xbox-inline-purchase-banner.jpg
+               3 файлов      1 326 687 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_userexperience-photon_31bf3856ad364e35_10.0.26100.6725_none_fadb6a1f2187be97\Photon\Public\wsxpacks\Account\assets\assets\images
+
+03.10.2025  04:56           385 462 copilot-upsell.jpg
+03.10.2025  04:56           897 999 xbox-acquisition-upsell.jpg
+03.10.2025  04:56            43 226 xbox-inline-purchase-banner.jpg
+15.10.2025  08:00            43 564 xbox-purchase-dialogue-banner-lotus.jpg
+               4 файлов      1 370 251 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_userexperience-sxs_31bf3856ad364e35_10.0.26100.6584_none_41cd32427284792e\54792954.Filons\FileExplorerExtensions\Assets\images\contrast-black
+
+15.08.2025  10:46            53 427 GalleryColdStateLeft.jpg
+15.08.2025  10:46            44 235 GalleryColdStateRight.jpg
+               2 файлов         97 662 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_userexperience-sxs_31bf3856ad364e35_10.0.26100.6584_none_41cd32427284792e\54792954.Filons\FileExplorerExtensions\Assets\images\contrast-standard\theme-dark
+
+15.08.2025  10:46            27 588 GalleryColdStateLeft.jpg
+15.08.2025  10:46            44 445 GalleryColdStateRight.jpg
+               2 файлов         72 033 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_userexperience-sxs_31bf3856ad364e35_10.0.26100.6584_none_41cd32427284792e\54792954.Filons\FileExplorerExtensions\Assets\images\contrast-standard\theme-light
+
+15.08.2025  10:46            53 427 GalleryColdStateLeft.jpg
+15.08.2025  10:46            44 235 GalleryColdStateRight.jpg
+               2 файлов         97 662 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_userexperience-sxs_31bf3856ad364e35_10.0.26100.6584_none_41cd32427284792e\54792954.Filons\FileExplorerExtensions\Assets\images\contrast-white
+
+15.08.2025  10:46            53 427 GalleryColdStateLeft.jpg
+15.08.2025  10:46            44 235 GalleryColdStateRight.jpg
+               2 файлов         97 662 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_userexperience-sxs_31bf3856ad364e35_10.0.26100.6899_none_41ad50e0729c667d\54792954.Filons\FileExplorerExtensions\Assets\images\contrast-black
+
+15.08.2025  10:46            53 427 GalleryColdStateLeft.jpg
+15.08.2025  10:46            44 235 GalleryColdStateRight.jpg
+               2 файлов         97 662 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_userexperience-sxs_31bf3856ad364e35_10.0.26100.6899_none_41ad50e0729c667d\54792954.Filons\FileExplorerExtensions\Assets\images\contrast-standard\theme-dark
+
+15.08.2025  10:46            27 588 GalleryColdStateLeft.jpg
+15.08.2025  10:46            44 445 GalleryColdStateRight.jpg
+               2 файлов         72 033 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_userexperience-sxs_31bf3856ad364e35_10.0.26100.6899_none_41ad50e0729c667d\54792954.Filons\FileExplorerExtensions\Assets\images\contrast-standard\theme-light
+
+15.08.2025  10:46            53 427 GalleryColdStateLeft.jpg
+15.08.2025  10:46            44 235 GalleryColdStateRight.jpg
+               2 файлов         97 662 байт
+
+ Содержимое папки C:\Windows\WinSxS\amd64_userexperience-sxs_31bf3856ad364e35_10.0.26100.6899_none_41ad50e0729c667d\54792954.Filons\FileExplorerExtensions\Assets\images\contrast-white
+
+15.08.2025  10:46            53 427 GalleryColdStateLeft.jpg
+15.08.2025  10:46            44 235 GalleryColdStateRight.jpg
+               2 файлов         97 662 байт
+
+ Содержимое папки C:\Windows\WinSxS\wow64_microsoft-windows-mediaplayer-core_31bf3856ad364e35_10.0.26100.5074_none_b1b23ae0335ad5f0
+
+28.03.2024  18:51             2 979 DMR_120.jpg
+28.03.2024  18:48             1 220 DMR_48.jpg
+               2 файлов          4 199 байт
+
+ Содержимое папки C:\Windows\WinSxS\x86_netfx4-aspnet_webadmin_images_b03f5f7f11d50a3a_4.0.15912.0_none_7c948bdecbdcdfb2
+
+01.04.2024  13:22            22 500 ASPdotNET_logo.jpg
+01.04.2024  13:22             8 260 darkBlue_GRAD.jpg
+01.04.2024  13:22             1 409 help.jpg
+01.04.2024  13:22                49 security_watermark.jpg
+01.04.2024  13:22             8 683 topGradRepeat.jpg
+               5 файлов         40 901 байт
+
+     Всего файлов:
+             197 файлов    118 154 295 байт
+               0 папок  479 050 276 864 байт свободно
