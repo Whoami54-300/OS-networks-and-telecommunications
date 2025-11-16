@@ -1,0 +1,31 @@
+:: task1.bat
+@echo off
+setlocal EnableExtensions
+
+:: Usage: task1.bat <folder> <ext-without-dot>
+
+if "%~1"=="" (
+  echo Usage: %~nx0 "<folder>" <ext-without-dot>
+  exit /b 1
+)
+if "%~2"=="" (
+  echo Usage: %~nx0 "<folder>" <ext-without-dot>
+  exit /b 1
+)
+
+set "DIRPATH=%~1"
+set "EXT=%~2"
+
+if not exist "%DIRPATH%" (
+  echo Error: folder not found - "%DIRPATH%"
+  exit /b 2
+)
+
+:: Only names, no paths; no directories
+dir /b /a:-d "%DIRPATH%\*.%EXT%" 2>nul
+if errorlevel 1 (
+  rem dir sets errorlevel=1 when no files matched; it's fine to end with empty output
+  exit /b 0
+)
+
+endlocal
