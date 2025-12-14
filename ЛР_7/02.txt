@@ -1,0 +1,1197 @@
+pstree -a -p > 02.txt 2>&1
+
+systemd,1 splash
+  |-AmneziaVPN-serv,1939 /opt/AmneziaVPN/service/AmneziaVPN-service.sh
+  |   `-AmneziaVPN-serv,1952
+  |       `-{AmneziaVPN-serv},1964
+  |-ModemManager,1721
+  |   |-{ModemManager},1759
+  |   |-{ModemManager},1764
+  |   `-{ModemManager},1769
+  |-NetworkManager,1670 --no-daemon
+  |   |-{NetworkManager},1733
+  |   |-{NetworkManager},1734
+  |   `-{NetworkManager},1736
+  |-accounts-daemon,1576
+  |   |-{accounts-daemon},1640
+  |   |-{accounts-daemon},1641
+  |   `-{accounts-daemon},1661
+  |-avahi-daemon,1549
+  |   `-avahi-daemon,1639
+  |-bluetoothd,1550
+  |-boltd,1724
+  |   |-{boltd},1753
+  |   |-{boltd},1754
+  |   `-{boltd},1756
+  |-colord,2680
+  |   |-{colord},2687
+  |   |-{colord},2688
+  |   `-{colord},2690
+  |-cron,1577 -f -P
+  |-cups-browsed,2960
+  |   |-{cups-browsed},2968
+  |   |-{cups-browsed},2969
+  |   `-{cups-browsed},2970
+  |-cupsd,1941 -l
+  |-dbus-daemon,1551 --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+  |-gdm3,1962
+  |   |-gdm-session-wor,2900
+  |   |   |-gdm-wayland-ses,3106 env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+  |   |   |   |-gnome-session-i,3119 ubuntu
+  |   |   |   |   |-{gnome-session-i},3155
+  |   |   |   |   |-{gnome-session-i},3156
+  |   |   |   |   `-{gnome-session-i},3157
+  |   |   |   |-{gdm-wayland-ses},3113
+  |   |   |   |-{gdm-wayland-ses},3114
+  |   |   |   `-{gdm-wayland-ses},3117
+  |   |   |-{gdm-session-wor},2901
+  |   |   |-{gdm-session-wor},2902
+  |   |   `-{gdm-session-wor},2903
+  |   |-{gdm3},1966
+  |   |-{gdm3},1967
+  |   |-{gdm3},1968
+  |   `-{gdm3},1970
+  |-polkitd,1564 --no-debug --log-level=notice
+  |   |-{polkitd},1685
+  |   |-{polkitd},1686
+  |   `-{polkitd},1687
+  |-power-profiles-,2961
+  |   |-{power-profiles-},2964
+  |   |-{power-profiles-},2965
+  |   `-{power-profiles-},2966
+  |-rsyslogd,1654 -n -iNONE
+  |   |-{rsyslogd},1695
+  |   |-{rsyslogd},1696
+  |   `-{rsyslogd},1697
+  |-rtkit-daemon,2300
+  |   |-{rtkit-daemon},2317
+  |   `-{rtkit-daemon},2318
+  |-snapd,1574
+  |   |-{snapd},1601
+  |   |-{snapd},1602
+  |   |-{snapd},1603
+  |   |-{snapd},1604
+  |   |-{snapd},1605
+  |   |-{snapd},1606
+  |   |-{snapd},1672
+  |   |-{snapd},1688
+  |   |-{snapd},1689
+  |   |-{snapd},1773
+  |   |-{snapd},1805
+  |   |-{snapd},1835
+  |   |-{snapd},1903
+  |   `-{snapd},1905
+  |-switcheroo-cont,1579
+  |   |-{switcheroo-cont},1612
+  |   |-{switcheroo-cont},1613
+  |   `-{switcheroo-cont},1658
+  |-systemd,2976 --user
+  |   |-(sd-pam),2978
+  |   |-Telegram,5415
+  |   |   |-{Telegram},5417
+  |   |   |-{Telegram},5418
+  |   |   |-{Telegram},5421
+  |   |   |-{Telegram},5422
+  |   |   |-{Telegram},5424
+  |   |   |-{Telegram},5425
+  |   |   |-{Telegram},5427
+  |   |   |-{Telegram},5428
+  |   |   |-{Telegram},5429
+  |   |   |-{Telegram},5430
+  |   |   |-{Telegram},5432
+  |   |   |-{Telegram},5435
+  |   |   |-{Telegram},5436
+  |   |   |-{Telegram},5437
+  |   |   |-{Telegram},5443
+  |   |   |-{Telegram},5444
+  |   |   |-{Telegram},5458
+  |   |   |-{Telegram},5514
+  |   |   |-{Telegram},5516
+  |   |   |-{Telegram},5517
+  |   |   |-{Telegram},5518
+  |   |   |-{Telegram},5519
+  |   |   |-{Telegram},5520
+  |   |   |-{Telegram},5521
+  |   |   |-{Telegram},5522
+  |   |   |-{Telegram},5523
+  |   |   |-{Telegram},5524
+  |   |   |-{Telegram},5535
+  |   |   |-{Telegram},5548
+  |   |   |-{Telegram},7257
+  |   |   `-{Telegram},7258
+  |   |-at-spi-bus-laun,3301
+  |   |   |-dbus-daemon,3308 --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11...
+  |   |   |-{at-spi-bus-laun},3302
+  |   |   |-{at-spi-bus-laun},3303
+  |   |   |-{at-spi-bus-laun},3304
+  |   |   `-{at-spi-bus-laun},3306
+  |   |-at-spi2-registr,3310 --use-gnome-session
+  |   |   |-{at-spi2-registr},3311
+  |   |   |-{at-spi2-registr},3312
+  |   |   `-{at-spi2-registr},3313
+  |   |-chrome_crashpad,4078 --monitor-self --monitor-self-annotation=ptype=crashpad-handler--database=/home/whoami/.
+  |   |   |-{chrome_crashpad},4082
+  |   |   `-{chrome_crashpad},4083
+  |   |-chrome_crashpad,4080 --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler--database=/home/who
+  |   |   `-{chrome_crashpad},4081
+  |   |-dbus-daemon,2999 --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+  |   |-dconf-service,3733
+  |   |   |-{dconf-service},3735
+  |   |   |-{dconf-service},3736
+  |   |   `-{dconf-service},3737
+  |   |-evolution-addre,3659
+  |   |   |-{evolution-addre},3662
+  |   |   |-{evolution-addre},3663
+  |   |   |-{evolution-addre},3664
+  |   |   |-{evolution-addre},3666
+  |   |   |-{evolution-addre},3667
+  |   |   `-{evolution-addre},3675
+  |   |-evolution-calen,3588
+  |   |   |-{evolution-calen},3627
+  |   |   |-{evolution-calen},3629
+  |   |   |-{evolution-calen},3634
+  |   |   |-{evolution-calen},3647
+  |   |   |-{evolution-calen},3648
+  |   |   |-{evolution-calen},3650
+  |   |   |-{evolution-calen},3652
+  |   |   |-{evolution-calen},3654
+  |   |   `-{evolution-calen},3655
+  |   |-evolution-sourc,3337
+  |   |   |-{evolution-sourc},3341
+  |   |   |-{evolution-sourc},3342
+  |   |   |-{evolution-sourc},3343
+  |   |   `-{evolution-sourc},3344
+  |   |-gcr-ssh-agent,3161 --base-dir /run/user/1000/gcr
+  |   |   |-{gcr-ssh-agent},3168
+  |   |   `-{gcr-ssh-agent},3169
+  |   |-gjs,3349 -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+  |   |   |-{gjs},3355
+  |   |   |-{gjs},3356
+  |   |   |-{gjs},3357
+  |   |   |-{gjs},3360
+  |   |   |-{gjs},3361
+  |   |   |-{gjs},3362
+  |   |   |-{gjs},3363
+  |   |   |-{gjs},3364
+  |   |   |-{gjs},3365
+  |   |   |-{gjs},3366
+  |   |   `-{gjs},3367
+  |   |-gjs,3554 -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+  |   |   |-{gjs},3563
+  |   |   |-{gjs},3564
+  |   |   |-{gjs},3583
+  |   |   |-{gjs},3596
+  |   |   |-{gjs},3598
+  |   |   |-{gjs},3599
+  |   |   |-{gjs},3603
+  |   |   |-{gjs},3604
+  |   |   |-{gjs},3605
+  |   |   |-{gjs},3606
+  |   |   `-{gjs},3607
+  |   |-glib-pacrunner,5459
+  |   |   |-{glib-pacrunner},5462
+  |   |   |-{glib-pacrunner},5463
+  |   |   `-{glib-pacrunner},5465
+  |   |-gnome-keyring-d,3005 --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+  |   |   |-{gnome-keyring-d},3022
+  |   |   |-{gnome-keyring-d},3023
+  |   |   |-{gnome-keyring-d},3026
+  |   |   `-{gnome-keyring-d},3027
+  |   |-gnome-session-c,3162 --monitor
+  |   |   `-{gnome-session-c},3167
+  |   |-gnome-session-s,3205 --session=ubuntu
+  |   |   |-evolution-alarm,3415
+  |   |   |   |-{evolution-alarm},3565
+  |   |   |   |-{evolution-alarm},3566
+  |   |   |   |-{evolution-alarm},3567
+  |   |   |   |-{evolution-alarm},3570
+  |   |   |   |-{evolution-alarm},3584
+  |   |   |   |-{evolution-alarm},3778
+  |   |   |   `-{evolution-alarm},3785
+  |   |   |-gsd-disk-utilit,3422
+  |   |   |   |-{gsd-disk-utilit},3441
+  |   |   |   |-{gsd-disk-utilit},3442
+  |   |   |   `-{gsd-disk-utilit},3480
+  |   |   |-(sh,3403)
+  |   |   |-(snap,3407)
+  |   |   |-(ubuntu-advantag,3412)
+  |   |   |-(ubuntu-report,3421)
+  |   |   |-update-notifier,3414
+  |   |   |   |-{update-notifier},3468
+  |   |   |   |-{update-notifier},3471
+  |   |   |   |-{update-notifier},3472
+  |   |   |   |-{update-notifier},3491
+  |   |   |   `-{update-notifier},3503
+  |   |   |-{gnome-session-s},3213
+  |   |   |-{gnome-session-s},3214
+  |   |   |-{gnome-session-s},3215
+  |   |   `-{gnome-session-s},3219
+  |   |-gnome-shell,3230
+  |   |   |-Xwayland,4125 :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.FYDJH3 -listenfd 4 ...
+  |   |   |   |-{Xwayland},4136
+  |   |   |   |-{Xwayland},4137
+  |   |   |   |-{Xwayland},4138
+  |   |   |   `-{Xwayland},4142
+  |   |   |-bwrap,3500 --unshare-all --die-with-parent --chdir / --ro-bind /usr /usr --dev /dev --ro-bind-try /etc/ld.so.cache ...
+  |   |   |   `-bwrap,3515 --unshare-all --die-with-parent --chdir / --ro-bind /usr /usr --dev /dev --ro-bind-try ...
+  |   |   |       `-glycin-image-rs,3522 --dbus-fd 72
+  |   |   |           |-{glycin-image-rs},3543
+  |   |   |           `-{glycin-image-rs},3550
+  |   |   |-chrome,4070
+  |   |   |   |-cat,4075
+  |   |   |   |-cat,4076
+  |   |   |   |-chrome,4086
+  |   |   |   |   `-chrome,4121
+  |   |   |   |       |-{chrome},4176
+  |   |   |   |       |-{chrome},4177
+  |   |   |   |       |-{chrome},4187
+  |   |   |   |       |-{chrome},4192
+  |   |   |   |       |-{chrome},4198
+  |   |   |   |       |-{chrome},4203
+  |   |   |   |       |-{chrome},4204
+  |   |   |   |       |-{chrome},4205
+  |   |   |   |       |-{chrome},4206
+  |   |   |   |       |-{chrome},4207
+  |   |   |   |       |-{chrome},4208
+  |   |   |   |       |-{chrome},4312
+  |   |   |   |       |-{chrome},4318
+  |   |   |   |       |-{chrome},4325
+  |   |   |   |       |-{chrome},4336
+  |   |   |   |       |-{chrome},4414
+  |   |   |   |       `-{chrome},4725
+  |   |   |   |-chrome,4087
+  |   |   |   |   `-chrome,4089
+  |   |   |   |       |-chrome,4175
+  |   |   |   |       |   |-{chrome},4179
+  |   |   |   |       |   |-{chrome},4182
+  |   |   |   |       |   |-{chrome},4183
+  |   |   |   |       |   |-{chrome},4184
+  |   |   |   |       |   |-{chrome},4186
+  |   |   |   |       |   |-{chrome},4189
+  |   |   |   |       |   `-{chrome},4826
+  |   |   |   |       |-chrome,4261
+  |   |   |   |       |   |-{chrome},4265
+  |   |   |   |       |   |-{chrome},4266
+  |   |   |   |       |   |-{chrome},4267
+  |   |   |   |       |   |-{chrome},4268
+  |   |   |   |       |   |-{chrome},4272
+  |   |   |   |       |   |-{chrome},4283
+  |   |   |   |       |   |-{chrome},4284
+  |   |   |   |       |   |-{chrome},4285
+  |   |   |   |       |   |-{chrome},4288
+  |   |   |   |       |   |-{chrome},4349
+  |   |   |   |       |   |-{chrome},4350
+  |   |   |   |       |   |-{chrome},4351
+  |   |   |   |       |   |-{chrome},4352
+  |   |   |   |       |   `-{chrome},4353
+  |   |   |   |       |-chrome,4269
+  |   |   |   |       |   |-{chrome},4274
+  |   |   |   |       |   |-{chrome},4275
+  |   |   |   |       |   |-{chrome},4276
+  |   |   |   |       |   |-{chrome},4277
+  |   |   |   |       |   |-{chrome},4280
+  |   |   |   |       |   |-{chrome},4292
+  |   |   |   |       |   |-{chrome},4293
+  |   |   |   |       |   |-{chrome},4294
+  |   |   |   |       |   |-{chrome},4298
+  |   |   |   |       |   |-{chrome},4356
+  |   |   |   |       |   |-{chrome},4357
+  |   |   |   |       |   |-{chrome},4358
+  |   |   |   |       |   |-{chrome},4359
+  |   |   |   |       |   `-{chrome},4360
+  |   |   |   |       |-chrome,4371
+  |   |   |   |       |   |-{chrome},4372
+  |   |   |   |       |   |-{chrome},4373
+  |   |   |   |       |   |-{chrome},4374
+  |   |   |   |       |   |-{chrome},4375
+  |   |   |   |       |   |-{chrome},4377
+  |   |   |   |       |   |-{chrome},4385
+  |   |   |   |       |   |-{chrome},4386
+  |   |   |   |       |   |-{chrome},4388
+  |   |   |   |       |   |-{chrome},4415
+  |   |   |   |       |   |-{chrome},4416
+  |   |   |   |       |   |-{chrome},4417
+  |   |   |   |       |   |-{chrome},4421
+  |   |   |   |       |   |-{chrome},4422
+  |   |   |   |       |   `-{chrome},4984
+  |   |   |   |       |-chrome,4376
+  |   |   |   |       |   |-{chrome},4380
+  |   |   |   |       |   |-{chrome},4381
+  |   |   |   |       |   |-{chrome},4382
+  |   |   |   |       |   |-{chrome},4383
+  |   |   |   |       |   |-{chrome},4384
+  |   |   |   |       |   |-{chrome},4393
+  |   |   |   |       |   |-{chrome},4394
+  |   |   |   |       |   |-{chrome},4395
+  |   |   |   |       |   |-{chrome},4407
+  |   |   |   |       |   |-{chrome},4409
+  |   |   |   |       |   |-{chrome},4410
+  |   |   |   |       |   |-{chrome},4411
+  |   |   |   |       |   |-{chrome},4412
+  |   |   |   |       |   |-{chrome},4413
+  |   |   |   |       |   |-{chrome},4418
+  |   |   |   |       |   |-{chrome},4419
+  |   |   |   |       |   |-{chrome},4471
+  |   |   |   |       |   `-{chrome},4985
+  |   |   |   |       |-chrome,4378
+  |   |   |   |       |   |-{chrome},4387
+  |   |   |   |       |   |-{chrome},4389
+  |   |   |   |       |   |-{chrome},4390
+  |   |   |   |       |   |-{chrome},4391
+  |   |   |   |       |   |-{chrome},4392
+  |   |   |   |       |   |-{chrome},4396
+  |   |   |   |       |   |-{chrome},4397
+  |   |   |   |       |   |-{chrome},4398
+  |   |   |   |       |   |-{chrome},4452
+  |   |   |   |       |   |-{chrome},4454
+  |   |   |   |       |   |-{chrome},4455
+  |   |   |   |       |   |-{chrome},4456
+  |   |   |   |       |   |-{chrome},4457
+  |   |   |   |       |   |-{chrome},4495
+  |   |   |   |       |   |-{chrome},4498
+  |   |   |   |       |   |-{chrome},4534
+  |   |   |   |       |   `-{chrome},5169
+  |   |   |   |       |-chrome,4400
+  |   |   |   |       |   |-{chrome},4401
+  |   |   |   |       |   |-{chrome},4402
+  |   |   |   |       |   |-{chrome},4403
+  |   |   |   |       |   |-{chrome},4404
+  |   |   |   |       |   |-{chrome},4405
+  |   |   |   |       |   |-{chrome},4406
+  |   |   |   |       |   |-{chrome},4408
+  |   |   |   |       |   |-{chrome},4772
+  |   |   |   |       |   |-{chrome},4773
+  |   |   |   |       |   |-{chrome},4774
+  |   |   |   |       |   |-{chrome},4775
+  |   |   |   |       |   |-{chrome},4776
+  |   |   |   |       |   `-{chrome},4777
+  |   |   |   |       |-chrome,4423
+  |   |   |   |       |   |-{chrome},4424
+  |   |   |   |       |   |-{chrome},4425
+  |   |   |   |       |   |-{chrome},4426
+  |   |   |   |       |   |-{chrome},4427
+  |   |   |   |       |   |-{chrome},4428
+  |   |   |   |       |   |-{chrome},4430
+  |   |   |   |       |   |-{chrome},4431
+  |   |   |   |       |   |-{chrome},4432
+  |   |   |   |       |   |-{chrome},4438
+  |   |   |   |       |   |-{chrome},4439
+  |   |   |   |       |   |-{chrome},4440
+  |   |   |   |       |   |-{chrome},4441
+  |   |   |   |       |   |-{chrome},4442
+  |   |   |   |       |   |-{chrome},4443
+  |   |   |   |       |   |-{chrome},4458
+  |   |   |   |       |   |-{chrome},4459
+  |   |   |   |       |   `-{chrome},4994
+  |   |   |   |       |-chrome,4460
+  |   |   |   |       |   |-{chrome},4461
+  |   |   |   |       |   |-{chrome},4462
+  |   |   |   |       |   |-{chrome},4463
+  |   |   |   |       |   |-{chrome},4464
+  |   |   |   |       |   |-{chrome},4465
+  |   |   |   |       |   |-{chrome},4466
+  |   |   |   |       |   |-{chrome},4467
+  |   |   |   |       |   |-{chrome},4468
+  |   |   |   |       |   |-{chrome},4483
+  |   |   |   |       |   |-{chrome},4484
+  |   |   |   |       |   |-{chrome},4485
+  |   |   |   |       |   |-{chrome},4505
+  |   |   |   |       |   |-{chrome},4506
+  |   |   |   |       |   |-{chrome},4507
+  |   |   |   |       |   |-{chrome},4781
+  |   |   |   |       |   `-{chrome},4782
+  |   |   |   |       |-chrome,4472
+  |   |   |   |       |   |-{chrome},4473
+  |   |   |   |       |   |-{chrome},4474
+  |   |   |   |       |   |-{chrome},4475
+  |   |   |   |       |   |-{chrome},4476
+  |   |   |   |       |   |-{chrome},4477
+  |   |   |   |       |   |-{chrome},4478
+  |   |   |   |       |   |-{chrome},4479
+  |   |   |   |       |   |-{chrome},4480
+  |   |   |   |       |   |-{chrome},4496
+  |   |   |   |       |   |-{chrome},4497
+  |   |   |   |       |   |-{chrome},5183
+  |   |   |   |       |   |-{chrome},5184
+  |   |   |   |       |   `-{chrome},5185
+  |   |   |   |       |-chrome,4486
+  |   |   |   |       |   |-{chrome},4487
+  |   |   |   |       |   |-{chrome},4488
+  |   |   |   |       |   |-{chrome},4489
+  |   |   |   |       |   |-{chrome},4490
+  |   |   |   |       |   |-{chrome},4491
+  |   |   |   |       |   |-{chrome},4492
+  |   |   |   |       |   |-{chrome},4493
+  |   |   |   |       |   |-{chrome},4494
+  |   |   |   |       |   |-{chrome},4653
+  |   |   |   |       |   |-{chrome},4654
+  |   |   |   |       |   |-{chrome},4655
+  |   |   |   |       |   |-{chrome},4674
+  |   |   |   |       |   |-{chrome},4675
+  |   |   |   |       |   `-{chrome},5173
+  |   |   |   |       |-chrome,4554
+  |   |   |   |       |   |-{chrome},4555
+  |   |   |   |       |   |-{chrome},4556
+  |   |   |   |       |   |-{chrome},4557
+  |   |   |   |       |   |-{chrome},4558
+  |   |   |   |       |   |-{chrome},4559
+  |   |   |   |       |   |-{chrome},4561
+  |   |   |   |       |   |-{chrome},4563
+  |   |   |   |       |   |-{chrome},4564
+  |   |   |   |       |   |-{chrome},4572
+  |   |   |   |       |   |-{chrome},4582
+  |   |   |   |       |   |-{chrome},4604
+  |   |   |   |       |   |-{chrome},4606
+  |   |   |   |       |   |-{chrome},4610
+  |   |   |   |       |   |-{chrome},4611
+  |   |   |   |       |   |-{chrome},4612
+  |   |   |   |       |   |-{chrome},4621
+  |   |   |   |       |   `-{chrome},5006
+  |   |   |   |       |-chrome,4560
+  |   |   |   |       |   |-{chrome},4562
+  |   |   |   |       |   |-{chrome},4565
+  |   |   |   |       |   |-{chrome},4566
+  |   |   |   |       |   |-{chrome},4567
+  |   |   |   |       |   |-{chrome},4568
+  |   |   |   |       |   |-{chrome},4569
+  |   |   |   |       |   |-{chrome},4570
+  |   |   |   |       |   |-{chrome},4571
+  |   |   |   |       |   |-{chrome},4573
+  |   |   |   |       |   |-{chrome},4581
+  |   |   |   |       |   |-{chrome},4605
+  |   |   |   |       |   |-{chrome},4607
+  |   |   |   |       |   |-{chrome},4608
+  |   |   |   |       |   |-{chrome},4613
+  |   |   |   |       |   |-{chrome},4614
+  |   |   |   |       |   |-{chrome},4615
+  |   |   |   |       |   `-{chrome},5012
+  |   |   |   |       |-chrome,4591
+  |   |   |   |       |   |-{chrome},4592
+  |   |   |   |       |   |-{chrome},4593
+  |   |   |   |       |   |-{chrome},4594
+  |   |   |   |       |   |-{chrome},4595
+  |   |   |   |       |   |-{chrome},4596
+  |   |   |   |       |   |-{chrome},4597
+  |   |   |   |       |   |-{chrome},4598
+  |   |   |   |       |   |-{chrome},4599
+  |   |   |   |       |   |-{chrome},4600
+  |   |   |   |       |   |-{chrome},4601
+  |   |   |   |       |   |-{chrome},4602
+  |   |   |   |       |   |-{chrome},4603
+  |   |   |   |       |   |-{chrome},4620
+  |   |   |   |       |   `-{chrome},5014
+  |   |   |   |       |-chrome,4622
+  |   |   |   |       |   |-{chrome},4623
+  |   |   |   |       |   |-{chrome},4624
+  |   |   |   |       |   |-{chrome},4625
+  |   |   |   |       |   |-{chrome},4626
+  |   |   |   |       |   |-{chrome},4627
+  |   |   |   |       |   |-{chrome},4628
+  |   |   |   |       |   |-{chrome},4629
+  |   |   |   |       |   |-{chrome},4630
+  |   |   |   |       |   |-{chrome},4631
+  |   |   |   |       |   |-{chrome},4632
+  |   |   |   |       |   |-{chrome},4633
+  |   |   |   |       |   |-{chrome},4652
+  |   |   |   |       |   |-{chrome},4670
+  |   |   |   |       |   |-{chrome},4671
+  |   |   |   |       |   |-{chrome},4672
+  |   |   |   |       |   |-{chrome},4673
+  |   |   |   |       |   `-{chrome},5033
+  |   |   |   |       |-chrome,4643
+  |   |   |   |       |   |-{chrome},4644
+  |   |   |   |       |   |-{chrome},4645
+  |   |   |   |       |   |-{chrome},4646
+  |   |   |   |       |   |-{chrome},4647
+  |   |   |   |       |   |-{chrome},4648
+  |   |   |   |       |   |-{chrome},4649
+  |   |   |   |       |   |-{chrome},4650
+  |   |   |   |       |   |-{chrome},4651
+  |   |   |   |       |   |-{chrome},4720
+  |   |   |   |       |   |-{chrome},4721
+  |   |   |   |       |   |-{chrome},4722
+  |   |   |   |       |   |-{chrome},4723
+  |   |   |   |       |   |-{chrome},4724
+  |   |   |   |       |   |-{chrome},4729
+  |   |   |   |       |   |-{chrome},4730
+  |   |   |   |       |   |-{chrome},4731
+  |   |   |   |       |   |-{chrome},4738
+  |   |   |   |       |   `-{chrome},5147
+  |   |   |   |       |-chrome,4656
+  |   |   |   |       |   |-{chrome},4657
+  |   |   |   |       |   |-{chrome},4658
+  |   |   |   |       |   |-{chrome},4659
+  |   |   |   |       |   |-{chrome},4660
+  |   |   |   |       |   |-{chrome},4661
+  |   |   |   |       |   |-{chrome},4662
+  |   |   |   |       |   |-{chrome},4663
+  |   |   |   |       |   |-{chrome},4664
+  |   |   |   |       |   |-{chrome},4666
+  |   |   |   |       |   |-{chrome},4667
+  |   |   |   |       |   |-{chrome},4668
+  |   |   |   |       |   |-{chrome},4669
+  |   |   |   |       |   |-{chrome},4679
+  |   |   |   |       |   `-{chrome},5171
+  |   |   |   |       |-chrome,4684
+  |   |   |   |       |   |-{chrome},4685
+  |   |   |   |       |   |-{chrome},4686
+  |   |   |   |       |   |-{chrome},4687
+  |   |   |   |       |   |-{chrome},4688
+  |   |   |   |       |   |-{chrome},4689
+  |   |   |   |       |   |-{chrome},4690
+  |   |   |   |       |   |-{chrome},4691
+  |   |   |   |       |   |-{chrome},4692
+  |   |   |   |       |   |-{chrome},4693
+  |   |   |   |       |   |-{chrome},4694
+  |   |   |   |       |   |-{chrome},4695
+  |   |   |   |       |   |-{chrome},4696
+  |   |   |   |       |   |-{chrome},4697
+  |   |   |   |       |   `-{chrome},5182
+  |   |   |   |       |-chrome,4711
+  |   |   |   |       |   |-{chrome},4712
+  |   |   |   |       |   |-{chrome},4713
+  |   |   |   |       |   |-{chrome},4714
+  |   |   |   |       |   |-{chrome},4715
+  |   |   |   |       |   |-{chrome},4716
+  |   |   |   |       |   |-{chrome},4717
+  |   |   |   |       |   |-{chrome},4718
+  |   |   |   |       |   |-{chrome},4719
+  |   |   |   |       |   |-{chrome},4798
+  |   |   |   |       |   |-{chrome},4802
+  |   |   |   |       |   |-{chrome},4803
+  |   |   |   |       |   |-{chrome},4804
+  |   |   |   |       |   |-{chrome},4805
+  |   |   |   |       |   |-{chrome},4807
+  |   |   |   |       |   |-{chrome},4808
+  |   |   |   |       |   |-{chrome},5250
+  |   |   |   |       |   `-{chrome},5726
+  |   |   |   |       |-chrome,4792
+  |   |   |   |       |   |-{chrome},4793
+  |   |   |   |       |   |-{chrome},4794
+  |   |   |   |       |   |-{chrome},4795
+  |   |   |   |       |   |-{chrome},4796
+  |   |   |   |       |   |-{chrome},4797
+  |   |   |   |       |   |-{chrome},4799
+  |   |   |   |       |   |-{chrome},4800
+  |   |   |   |       |   |-{chrome},4801
+  |   |   |   |       |   |-{chrome},4828
+  |   |   |   |       |   |-{chrome},4829
+  |   |   |   |       |   |-{chrome},4830
+  |   |   |   |       |   |-{chrome},5172
+  |   |   |   |       |   `-{chrome},5692
+  |   |   |   |       |-chrome,4815
+  |   |   |   |       |   |-{chrome},4816
+  |   |   |   |       |   |-{chrome},4817
+  |   |   |   |       |   |-{chrome},4818
+  |   |   |   |       |   |-{chrome},4819
+  |   |   |   |       |   |-{chrome},4820
+  |   |   |   |       |   |-{chrome},4821
+  |   |   |   |       |   |-{chrome},4822
+  |   |   |   |       |   |-{chrome},4823
+  |   |   |   |       |   |-{chrome},4850
+  |   |   |   |       |   |-{chrome},4851
+  |   |   |   |       |   |-{chrome},4852
+  |   |   |   |       |   |-{chrome},4853
+  |   |   |   |       |   |-{chrome},4854
+  |   |   |   |       |   `-{chrome},5232
+  |   |   |   |       |-chrome,4841
+  |   |   |   |       |   |-{chrome},4842
+  |   |   |   |       |   |-{chrome},4843
+  |   |   |   |       |   |-{chrome},4844
+  |   |   |   |       |   |-{chrome},4845
+  |   |   |   |       |   |-{chrome},4846
+  |   |   |   |       |   |-{chrome},4847
+  |   |   |   |       |   |-{chrome},4848
+  |   |   |   |       |   |-{chrome},4849
+  |   |   |   |       |   |-{chrome},5065
+  |   |   |   |       |   |-{chrome},5066
+  |   |   |   |       |   |-{chrome},5067
+  |   |   |   |       |   |-{chrome},5175
+  |   |   |   |       |   `-{chrome},5176
+  |   |   |   |       |-chrome,4876
+  |   |   |   |       |   |-{chrome},4877
+  |   |   |   |       |   |-{chrome},4878
+  |   |   |   |       |   |-{chrome},4879
+  |   |   |   |       |   |-{chrome},4880
+  |   |   |   |       |   |-{chrome},4881
+  |   |   |   |       |   |-{chrome},4882
+  |   |   |   |       |   |-{chrome},4883
+  |   |   |   |       |   |-{chrome},4884
+  |   |   |   |       |   |-{chrome},4885
+  |   |   |   |       |   |-{chrome},4886
+  |   |   |   |       |   |-{chrome},4887
+  |   |   |   |       |   |-{chrome},4888
+  |   |   |   |       |   |-{chrome},4889
+  |   |   |   |       |   |-{chrome},4890
+  |   |   |   |       |   |-{chrome},4891
+  |   |   |   |       |   |-{chrome},5039
+  |   |   |   |       |   `-{chrome},5174
+  |   |   |   |       |-chrome,4892
+  |   |   |   |       |   |-{chrome},4893
+  |   |   |   |       |   |-{chrome},4894
+  |   |   |   |       |   |-{chrome},4895
+  |   |   |   |       |   |-{chrome},4896
+  |   |   |   |       |   |-{chrome},4897
+  |   |   |   |       |   |-{chrome},4898
+  |   |   |   |       |   |-{chrome},4899
+  |   |   |   |       |   |-{chrome},4900
+  |   |   |   |       |   |-{chrome},4901
+  |   |   |   |       |   |-{chrome},4902
+  |   |   |   |       |   |-{chrome},4903
+  |   |   |   |       |   |-{chrome},4904
+  |   |   |   |       |   |-{chrome},4905
+  |   |   |   |       |   |-{chrome},4906
+  |   |   |   |       |   |-{chrome},4907
+  |   |   |   |       |   |-{chrome},5068
+  |   |   |   |       |   `-{chrome},5240
+  |   |   |   |       |-chrome,4974
+  |   |   |   |       |   |-{chrome},4975
+  |   |   |   |       |   |-{chrome},4976
+  |   |   |   |       |   |-{chrome},4977
+  |   |   |   |       |   |-{chrome},4978
+  |   |   |   |       |   |-{chrome},4979
+  |   |   |   |       |   |-{chrome},4980
+  |   |   |   |       |   |-{chrome},4981
+  |   |   |   |       |   |-{chrome},4982
+  |   |   |   |       |   |-{chrome},4983
+  |   |   |   |       |   |-{chrome},4986
+  |   |   |   |       |   |-{chrome},4987
+  |   |   |   |       |   |-{chrome},4988
+  |   |   |   |       |   |-{chrome},4989
+  |   |   |   |       |   `-{chrome},5194
+  |   |   |   |       |-chrome,4997
+  |   |   |   |       |   |-{chrome},4998
+  |   |   |   |       |   |-{chrome},4999
+  |   |   |   |       |   |-{chrome},5000
+  |   |   |   |       |   |-{chrome},5001
+  |   |   |   |       |   |-{chrome},5002
+  |   |   |   |       |   |-{chrome},5003
+  |   |   |   |       |   |-{chrome},5004
+  |   |   |   |       |   |-{chrome},5005
+  |   |   |   |       |   |-{chrome},5007
+  |   |   |   |       |   |-{chrome},5008
+  |   |   |   |       |   |-{chrome},5009
+  |   |   |   |       |   |-{chrome},5010
+  |   |   |   |       |   |-{chrome},5011
+  |   |   |   |       |   |-{chrome},5013
+  |   |   |   |       |   `-{chrome},5202
+  |   |   |   |       |-chrome,5015
+  |   |   |   |       |   |-{chrome},5016
+  |   |   |   |       |   |-{chrome},5017
+  |   |   |   |       |   |-{chrome},5018
+  |   |   |   |       |   |-{chrome},5019
+  |   |   |   |       |   |-{chrome},5020
+  |   |   |   |       |   |-{chrome},5021
+  |   |   |   |       |   |-{chrome},5022
+  |   |   |   |       |   |-{chrome},5023
+  |   |   |   |       |   |-{chrome},5025
+  |   |   |   |       |   |-{chrome},5026
+  |   |   |   |       |   |-{chrome},5027
+  |   |   |   |       |   |-{chrome},5029
+  |   |   |   |       |   |-{chrome},5030
+  |   |   |   |       |   |-{chrome},5036
+  |   |   |   |       |   |-{chrome},5037
+  |   |   |   |       |   |-{chrome},5038
+  |   |   |   |       |   |-{chrome},5055
+  |   |   |   |       |   |-{chrome},5069
+  |   |   |   |       |   |-{chrome},5070
+  |   |   |   |       |   |-{chrome},5071
+  |   |   |   |       |   |-{chrome},5072
+  |   |   |   |       |   |-{chrome},5245
+  |   |   |   |       |   `-{chrome},7238
+  |   |   |   |       |-chrome,5042
+  |   |   |   |       |   |-{chrome},5043
+  |   |   |   |       |   |-{chrome},5044
+  |   |   |   |       |   |-{chrome},5045
+  |   |   |   |       |   |-{chrome},5046
+  |   |   |   |       |   |-{chrome},5047
+  |   |   |   |       |   |-{chrome},5048
+  |   |   |   |       |   |-{chrome},5049
+  |   |   |   |       |   |-{chrome},5050
+  |   |   |   |       |   |-{chrome},5051
+  |   |   |   |       |   |-{chrome},5052
+  |   |   |   |       |   |-{chrome},5053
+  |   |   |   |       |   |-{chrome},5054
+  |   |   |   |       |   `-{chrome},5243
+  |   |   |   |       |-chrome,5077
+  |   |   |   |       |   |-{chrome},5078
+  |   |   |   |       |   |-{chrome},5079
+  |   |   |   |       |   |-{chrome},5080
+  |   |   |   |       |   |-{chrome},5081
+  |   |   |   |       |   |-{chrome},5082
+  |   |   |   |       |   |-{chrome},5083
+  |   |   |   |       |   |-{chrome},5084
+  |   |   |   |       |   |-{chrome},5085
+  |   |   |   |       |   |-{chrome},5099
+  |   |   |   |       |   |-{chrome},5100
+  |   |   |   |       |   |-{chrome},5103
+  |   |   |   |       |   |-{chrome},5105
+  |   |   |   |       |   |-{chrome},5106
+  |   |   |   |       |   |-{chrome},5109
+  |   |   |   |       |   |-{chrome},5110
+  |   |   |   |       |   |-{chrome},5112
+  |   |   |   |       |   |-{chrome},5113
+  |   |   |   |       |   |-{chrome},5114
+  |   |   |   |       |   `-{chrome},5286
+  |   |   |   |       |-chrome,5086
+  |   |   |   |       |   |-{chrome},5087
+  |   |   |   |       |   |-{chrome},5088
+  |   |   |   |       |   |-{chrome},5089
+  |   |   |   |       |   |-{chrome},5090
+  |   |   |   |       |   |-{chrome},5091
+  |   |   |   |       |   |-{chrome},5092
+  |   |   |   |       |   |-{chrome},5093
+  |   |   |   |       |   |-{chrome},5094
+  |   |   |   |       |   |-{chrome},5095
+  |   |   |   |       |   |-{chrome},5096
+  |   |   |   |       |   |-{chrome},5097
+  |   |   |   |       |   |-{chrome},5098
+  |   |   |   |       |   |-{chrome},5104
+  |   |   |   |       |   `-{chrome},5246
+  |   |   |   |       `-chrome,7239
+  |   |   |   |           |-{chrome},7240
+  |   |   |   |           |-{chrome},7241
+  |   |   |   |           |-{chrome},7242
+  |   |   |   |           |-{chrome},7243
+  |   |   |   |           |-{chrome},7244
+  |   |   |   |           |-{chrome},7246
+  |   |   |   |           |-{chrome},7247
+  |   |   |   |           `-{chrome},7248
+  |   |   |   |-chrome,4124
+  |   |   |   |   |-{chrome},4126
+  |   |   |   |   |-{chrome},4127
+  |   |   |   |   |-{chrome},4128
+  |   |   |   |   |-{chrome},4129
+  |   |   |   |   |-{chrome},4130
+  |   |   |   |   |-{chrome},4131
+  |   |   |   |   |-{chrome},4132
+  |   |   |   |   |-{chrome},4133
+  |   |   |   |   |-{chrome},4134
+  |   |   |   |   |-{chrome},4420
+  |   |   |   |   |-{chrome},4469
+  |   |   |   |   `-{chrome},4470
+  |   |   |   |-chrome,4508
+  |   |   |   |   |-{chrome},4509
+  |   |   |   |   |-{chrome},4510
+  |   |   |   |   |-{chrome},4511
+  |   |   |   |   |-{chrome},4512
+  |   |   |   |   |-{chrome},4513
+  |   |   |   |   |-{chrome},4514
+  |   |   |   |   `-{chrome},4515
+  |   |   |   |-{chrome},4084
+  |   |   |   |-{chrome},4090
+  |   |   |   |-{chrome},4095
+  |   |   |   |-{chrome},4096
+  |   |   |   |-{chrome},4097
+  |   |   |   |-{chrome},4098
+  |   |   |   |-{chrome},4099
+  |   |   |   |-{chrome},4100
+  |   |   |   |-{chrome},4101
+  |   |   |   |-{chrome},4102
+  |   |   |   |-{chrome},4103
+  |   |   |   |-{chrome},4107
+  |   |   |   |-{chrome},4108
+  |   |   |   |-{chrome},4109
+  |   |   |   |-{chrome},4110
+  |   |   |   |-{chrome},4112
+  |   |   |   |-{chrome},4113
+  |   |   |   |-{chrome},4114
+  |   |   |   |-{chrome},4115
+  |   |   |   |-{chrome},4116
+  |   |   |   |-{chrome},4117
+  |   |   |   |-{chrome},4118
+  |   |   |   |-{chrome},4119
+  |   |   |   |-{chrome},4120
+  |   |   |   |-{chrome},4122
+  |   |   |   |-{chrome},4216
+  |   |   |   |-{chrome},4217
+  |   |   |   |-{chrome},4219
+  |   |   |   |-{chrome},4220
+  |   |   |   |-{chrome},4221
+  |   |   |   |-{chrome},4222
+  |   |   |   |-{chrome},4223
+  |   |   |   |-{chrome},4224
+  |   |   |   |-{chrome},4225
+  |   |   |   |-{chrome},4226
+  |   |   |   |-{chrome},4227
+  |   |   |   `-{chrome},7253
+  |   |   |-gjs,3825 /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P...
+  |   |   |   |-{gjs},3836
+  |   |   |   |-{gjs},3837
+  |   |   |   |-{gjs},3846
+  |   |   |   |-{gjs},3848
+  |   |   |   |-{gjs},3849
+  |   |   |   |-{gjs},3850
+  |   |   |   |-{gjs},3851
+  |   |   |   |-{gjs},3852
+  |   |   |   |-{gjs},3853
+  |   |   |   |-{gjs},3854
+  |   |   |   |-{gjs},3855
+  |   |   |   |-{gjs},3889
+  |   |   |   `-{gjs},3892
+  |   |   |-mutter-x11-fram,4153
+  |   |   |   |-{mutter-x11-fram},4161
+  |   |   |   |-{mutter-x11-fram},4162
+  |   |   |   |-{mutter-x11-fram},4164
+  |   |   |   |-{mutter-x11-fram},4166
+  |   |   |   |-{mutter-x11-fram},4180
+  |   |   |   |-{mutter-x11-fram},4181
+  |   |   |   |-{mutter-x11-fram},4193
+  |   |   |   |-{mutter-x11-fram},4197
+  |   |   |   `-{mutter-x11-fram},4218
+  |   |   |-{gnome-shell},3245
+  |   |   |-{gnome-shell},3246
+  |   |   |-{gnome-shell},3248
+  |   |   |-{gnome-shell},3249
+  |   |   |-{gnome-shell},3250
+  |   |   |-{gnome-shell},3251
+  |   |   |-{gnome-shell},3252
+  |   |   |-{gnome-shell},3253
+  |   |   |-{gnome-shell},3254
+  |   |   |-{gnome-shell},3255
+  |   |   |-{gnome-shell},3256
+  |   |   |-{gnome-shell},3257
+  |   |   |-{gnome-shell},3267
+  |   |   |-{gnome-shell},3270
+  |   |   |-{gnome-shell},3271
+  |   |   |-{gnome-shell},3279
+  |   |   |-{gnome-shell},3283
+  |   |   |-{gnome-shell},3284
+  |   |   |-{gnome-shell},3288
+  |   |   |-{gnome-shell},3289
+  |   |   |-{gnome-shell},3371
+  |   |   |-{gnome-shell},3372
+  |   |   |-{gnome-shell},3374
+  |   |   |-{gnome-shell},3409
+  |   |   |-{gnome-shell},3548
+  |   |   |-{gnome-shell},3734
+  |   |   |-{gnome-shell},3763
+  |   |   |-{gnome-shell},5411
+  |   |   |-{gnome-shell},7265
+  |   |   `-{gnome-shell},7266
+  |   |-gnome-shell-cal,3329
+  |   |   |-{gnome-shell-cal},3331
+  |   |   |-{gnome-shell-cal},3332
+  |   |   |-{gnome-shell-cal},3334
+  |   |   |-{gnome-shell-cal},3335
+  |   |   |-{gnome-shell-cal},3336
+  |   |   `-{gnome-shell-cal},3576
+  |   |-gnome-terminal-,7096
+  |   |   |-bash,7103
+  |   |   |   `-pstree,7267 -a -p
+  |   |   |-{gnome-terminal-},7097
+  |   |   |-{gnome-terminal-},7098
+  |   |   |-{gnome-terminal-},7099
+  |   |   |-{gnome-terminal-},7101
+  |   |   |-{gnome-terminal-},7102
+  |   |   `-{gnome-terminal-},7237
+  |   |-goa-daemon,3455
+  |   |   |-{goa-daemon},3517
+  |   |   |-{goa-daemon},3519
+  |   |   |-{goa-daemon},3530
+  |   |   `-{goa-daemon},3540
+  |   |-goa-identity-se,3549
+  |   |   |-{goa-identity-se},3557
+  |   |   |-{goa-identity-se},3558
+  |   |   `-{goa-identity-se},3582
+  |   |-gsd-a11y-settin,3368
+  |   |   |-{gsd-a11y-settin},3380
+  |   |   |-{gsd-a11y-settin},3381
+  |   |   |-{gsd-a11y-settin},3384
+  |   |   `-{gsd-a11y-settin},3400
+  |   |-gsd-color,3370
+  |   |   |-{gsd-color},3393
+  |   |   |-{gsd-color},3394
+  |   |   |-{gsd-color},3395
+  |   |   `-{gsd-color},3402
+  |   |-gsd-datetime,3373
+  |   |   |-{gsd-datetime},3473
+  |   |   |-{gsd-datetime},3474
+  |   |   |-{gsd-datetime},3496
+  |   |   `-{gsd-datetime},3528
+  |   |-gsd-housekeepin,3377
+  |   |   |-{gsd-housekeepin},3501
+  |   |   |-{gsd-housekeepin},3502
+  |   |   |-{gsd-housekeepin},3524
+  |   |   `-{gsd-housekeepin},3590
+  |   |-gsd-keyboard,3378
+  |   |   |-{gsd-keyboard},3492
+  |   |   |-{gsd-keyboard},3493
+  |   |   |-{gsd-keyboard},3494
+  |   |   `-{gsd-keyboard},3525
+  |   |-gsd-media-keys,3385
+  |   |   |-{gsd-media-keys},3438
+  |   |   |-{gsd-media-keys},3439
+  |   |   |-{gsd-media-keys},3446
+  |   |   `-{gsd-media-keys},3527
+  |   |-gsd-power,3389
+  |   |   |-{gsd-power},3481
+  |   |   |-{gsd-power},3482
+  |   |   |-{gsd-power},3508
+  |   |   `-{gsd-power},3555
+  |   |-gsd-print-notif,3391
+  |   |   |-{gsd-print-notif},3418
+  |   |   |-{gsd-print-notif},3419
+  |   |   `-{gsd-print-notif},3420
+  |   |-gsd-printer,3538
+  |   |   |-{gsd-printer},3551
+  |   |   |-{gsd-printer},3552
+  |   |   `-{gsd-printer},3580
+  |   |-gsd-rfkill,3392
+  |   |   |-{gsd-rfkill},3495
+  |   |   |-{gsd-rfkill},3497
+  |   |   `-{gsd-rfkill},3513
+  |   |-gsd-screensaver,3396
+  |   |   |-{gsd-screensaver},3449
+  |   |   |-{gsd-screensaver},3452
+  |   |   `-{gsd-screensaver},3487
+  |   |-gsd-sharing,3401
+  |   |   |-{gsd-sharing},3459
+  |   |   |-{gsd-sharing},3460
+  |   |   |-{gsd-sharing},3462
+  |   |   `-{gsd-sharing},3486
+  |   |-gsd-smartcard,3404
+  |   |   |-{gsd-smartcard},3431
+  |   |   |-{gsd-smartcard},3433
+  |   |   |-{gsd-smartcard},3478
+  |   |   `-{gsd-smartcard},3510
+  |   |-gsd-sound,3410
+  |   |   |-{gsd-sound},3484
+  |   |   |-{gsd-sound},3485
+  |   |   |-{gsd-sound},3507
+  |   |   `-{gsd-sound},3541
+  |   |-gsd-usb-protect,3416
+  |   |   |-{gsd-usb-protect},3498
+  |   |   |-{gsd-usb-protect},3499
+  |   |   |-{gsd-usb-protect},3512
+  |   |   `-{gsd-usb-protect},3545
+  |   |-gsd-wwan,3417
+  |   |   |-{gsd-wwan},3505
+  |   |   |-{gsd-wwan},3506
+  |   |   |-{gsd-wwan},3516
+  |   |   `-{gsd-wwan},3539
+  |   |-gsd-xsettings,4147
+  |   |   |-{gsd-xsettings},4148
+  |   |   |-{gsd-xsettings},4149
+  |   |   |-{gsd-xsettings},4150
+  |   |   `-{gsd-xsettings},4151
+  |   |-gvfs-afc-volume,3661
+  |   |   |-{gvfs-afc-volume},3668
+  |   |   |-{gvfs-afc-volume},3669
+  |   |   |-{gvfs-afc-volume},3670
+  |   |   `-{gvfs-afc-volume},3672
+  |   |-gvfs-goa-volume,3649
+  |   |   |-{gvfs-goa-volume},3656
+  |   |   |-{gvfs-goa-volume},3657
+  |   |   `-{gvfs-goa-volume},3658
+  |   |-gvfs-gphoto2-vo,3684
+  |   |   |-{gvfs-gphoto2-vo},3685
+  |   |   |-{gvfs-gphoto2-vo},3686
+  |   |   `-{gvfs-gphoto2-vo},3688
+  |   |-gvfs-mtp-volume,3674
+  |   |   |-{gvfs-mtp-volume},3680
+  |   |   |-{gvfs-mtp-volume},3681
+  |   |   `-{gvfs-mtp-volume},3683
+  |   |-gvfs-udisks2-vo,3532
+  |   |   |-{gvfs-udisks2-vo},3586
+  |   |   |-{gvfs-udisks2-vo},3587
+  |   |   |-{gvfs-udisks2-vo},3593
+  |   |   `-{gvfs-udisks2-vo},3637
+  |   |-gvfsd,3180
+  |   |   |-gvfsd-computer,6113 --spawner :1.21 /org/gtk/gvfs/exec_spaw/5
+  |   |   |   |-{gvfsd-computer},6114
+  |   |   |   |-{gvfsd-computer},6115
+  |   |   |   `-{gvfsd-computer},6116
+  |   |   |-gvfsd-dnssd,6083 --spawner :1.21 /org/gtk/gvfs/exec_spaw/3
+  |   |   |   |-{gvfsd-dnssd},6084
+  |   |   |   |-{gvfsd-dnssd},6085
+  |   |   |   `-{gvfsd-dnssd},6086
+  |   |   |-gvfsd-network,6069 --spawner :1.21 /org/gtk/gvfs/exec_spaw/2
+  |   |   |   |-{gvfsd-network},6074
+  |   |   |   |-{gvfsd-network},6075
+  |   |   |   |-{gvfsd-network},6079
+  |   |   |   `-{gvfsd-network},6082
+  |   |   |-gvfsd-recent,6067 --spawner :1.21 /org/gtk/gvfs/exec_spaw/1
+  |   |   |   |-{gvfsd-recent},6071
+  |   |   |   |-{gvfsd-recent},6072
+  |   |   |   `-{gvfsd-recent},6073
+  |   |   |-gvfsd-trash,3742 --spawner :1.21 /org/gtk/gvfs/exec_spaw/0
+  |   |   |   |-{gvfsd-trash},3743
+  |   |   |   |-{gvfsd-trash},3744
+  |   |   |   |-{gvfsd-trash},3745
+  |   |   |   `-{gvfsd-trash},3748
+  |   |   |-gvfsd-wsdd,6089 --spawner :1.21 /org/gtk/gvfs/exec_spaw/4
+  |   |   |   |-python3,6094 /usr/bin/wsdd --no-host --discovery --listen /run/user/1000/gvfsd/wsdd
+  |   |   |   |-{gvfsd-wsdd},6090
+  |   |   |   |-{gvfsd-wsdd},6091
+  |   |   |   `-{gvfsd-wsdd},6092
+  |   |   |-{gvfsd},3189
+  |   |   |-{gvfsd},3190
+  |   |   `-{gvfsd},3194
+  |   |-gvfsd-fuse,3202 /run/user/1000/gvfs -f
+  |   |   |-{gvfsd-fuse},3207
+  |   |   |-{gvfsd-fuse},3208
+  |   |   |-{gvfsd-fuse},3209
+  |   |   |-{gvfsd-fuse},3210
+  |   |   |-{gvfsd-fuse},3211
+  |   |   `-{gvfsd-fuse},3212
+  |   |-gvfsd-metadata,3955
+  |   |   |-{gvfsd-metadata},3960
+  |   |   |-{gvfsd-metadata},3961
+  |   |   `-{gvfsd-metadata},3962
+  |   |-ibus-daemon,3359 --panel disable
+  |   |   |-ibus-engine-sim,3708
+  |   |   |   |-{ibus-engine-sim},3709
+  |   |   |   |-{ibus-engine-sim},3710
+  |   |   |   `-{ibus-engine-sim},3711
+  |   |   |-ibus-extension-,3581
+  |   |   |   |-{ibus-extension-},3615
+  |   |   |   |-{ibus-extension-},3616
+  |   |   |   |-{ibus-extension-},3617
+  |   |   |   |-{ibus-extension-},3620
+  |   |   |   `-{ibus-extension-},3630
+  |   |   |-ibus-memconf,3578
+  |   |   |   |-{ibus-memconf},3594
+  |   |   |   |-{ibus-memconf},3595
+  |   |   |   `-{ibus-memconf},3608
+  |   |   |-{ibus-daemon},3523
+  |   |   |-{ibus-daemon},3526
+  |   |   `-{ibus-daemon},3546
+  |   |-ibus-portal,3592
+  |   |   |-{ibus-portal},3612
+  |   |   |-{ibus-portal},3613
+  |   |   `-{ibus-portal},3621
+  |   |-ibus-x11,4172
+  |   |   |-{ibus-x11},4210
+  |   |   |-{ibus-x11},4211
+  |   |   |-{ibus-x11},4213
+  |   |   |-{ibus-x11},4214
+  |   |   `-{ibus-x11},4215
+  |   |-localsearch-3,3600
+  |   |   |-{localsearch-3},3643
+  |   |   |-{localsearch-3},3644
+  |   |   |-{localsearch-3},3645
+  |   |   |-{localsearch-3},3689
+  |   |   |-{localsearch-3},3691
+  |   |   |-{localsearch-3},3693
+  |   |   `-{localsearch-3},3694
+  |   |-mpris-proxy,3017
+  |   |-nautilus,6033 --gapplication-service
+  |   |   |-{nautilus},6034
+  |   |   |-{nautilus},6035
+  |   |   |-{nautilus},6036
+  |   |   |-{nautilus},6038
+  |   |   |-{nautilus},6041
+  |   |   |-{nautilus},6043
+  |   |   |-{nautilus},6058
+  |   |   |-{nautilus},6062
+  |   |   |-{nautilus},6063
+  |   |   |-{nautilus},6064
+  |   |   |-{nautilus},6065
+  |   |   `-{nautilus},7268
+  |   |-obexd,5275
+  |   |   |-{obexd},5277
+  |   |   |-{obexd},5278
+  |   |   |-{obexd},5279
+  |   |   |-{obexd},5280
+  |   |   |-{obexd},5281
+  |   |   `-{obexd},5282
+  |   |-papers,6988 ...
+  |   |   |-{papers},6989
+  |   |   |-{papers},6990
+  |   |   |-{papers},6991
+  |   |   |-{papers},6992
+  |   |   |-{papers},6994
+  |   |   |-{papers},7017
+  |   |   |-{papers},7021
+  |   |   |-{papers},7022
+  |   |   |-{papers},7023
+  |   |   |-{papers},7024
+  |   |   `-{papers},7025
+  |   |-pipewire,3000
+  |   |   |-{pipewire},3006
+  |   |   `-{pipewire},3009
+  |   |-pipewire,3001 -c filter-chain.conf
+  |   |   `-{pipewire},3021
+  |   |-pipewire-pulse,3024
+  |   |   |-{pipewire-pulse},3030
+  |   |   `-{pipewire-pulse},3035
+  |   |-snap,6577 userd
+  |   |   |-{snap},6578
+  |   |   |-{snap},6579
+  |   |   |-{snap},6580
+  |   |   |-{snap},6581
+  |   |   |-{snap},6582
+  |   |   |-{snap},6583
+  |   |   |-{snap},6584
+  |   |   `-{snap},6585
+  |   |-snapd-desktop-i,3867
+  |   |   `-snapd-desktop-i,3940
+  |   |       |-{snapd-desktop-i},3956
+  |   |       |-{snapd-desktop-i},3957
+  |   |       |-{snapd-desktop-i},3958
+  |   |       `-{snapd-desktop-i},3959
+  |   |-ssh-agent,3164 -D
+  |   |-wireplumber,3020
+  |   |   |-{wireplumber},3028
+  |   |   |-{wireplumber},3029
+  |   |   |-{wireplumber},3031
+  |   |   |-{wireplumber},3036
+  |   |   `-{wireplumber},3038
+  |   |-xdg-desktop-por,3762
+  |   |   |-{xdg-desktop-por},3764
+  |   |   |-{xdg-desktop-por},3765
+  |   |   |-{xdg-desktop-por},3766
+  |   |   |-{xdg-desktop-por},3809
+  |   |   |-{xdg-desktop-por},3864
+  |   |   `-{xdg-desktop-por},3866
+  |   |-xdg-desktop-por,3768
+  |   |   |-{xdg-desktop-por},3769
+  |   |   |-{xdg-desktop-por},3770
+  |   |   |-{xdg-desktop-por},3771
+  |   |   |-{xdg-desktop-por},3772
+  |   |   `-{xdg-desktop-por},3773
+  |   |-xdg-desktop-por,3810
+  |   |   |-{xdg-desktop-por},3811
+  |   |   |-{xdg-desktop-por},3812
+  |   |   |-{xdg-desktop-por},3813
+  |   |   |-{xdg-desktop-por},3815
+  |   |   `-{xdg-desktop-por},3816
+  |   |-xdg-document-po,3050
+  |   |   |-fusermount3,3071 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+  |   |   |-{xdg-document-po},3054
+  |   |   |-{xdg-document-po},3055
+  |   |   |-{xdg-document-po},3056
+  |   |   |-{xdg-document-po},3070
+  |   |   |-{xdg-document-po},3073
+  |   |   `-{xdg-document-po},3074
+  |   `-xdg-permission-,3061
+  |       |-{xdg-permission-},3065
+  |       |-{xdg-permission-},3066
+  |       `-{xdg-permission-},3068
+  |-systemd-journal,389
+  |-systemd-logind,1585
+  |-systemd-oomd,422
+  |-systemd-resolve,433
+  |-systemd-timesyn,423
+  |   |-{systemd-timesyn},436
+  |   `-{systemd-timesyn},437
+  |-systemd-udevd,431
+  |-thermald,1587 --systemd --dbus-enable --adaptive
+  |   |-{thermald},1615
+  |   |-{thermald},1616
+  |   |-{thermald},1662
+  |   `-{thermald},1802
+  |-udisksd,1588
+  |   |-{udisksd},1624
+  |   |-{udisksd},1625
+  |   |-{udisksd},1660
+  |   |-{udisksd},1723
+  |   `-{udisksd},1785
+  |-unattended-upgr,1946 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+  |   `-{unattended-upgr},1974
+  |-upowerd,1783
+  |   |-{upowerd},1788
+  |   |-{upowerd},1789
+  |   `-{upowerd},1790
+  `-wpa_supplicant,1674 -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
