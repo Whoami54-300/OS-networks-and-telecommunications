@@ -1,0 +1,8 @@
+ls -l /proc/$$/fd > 06_2.txt 2>&1
+
+
+total 0
+lrwx------ 1 whoami whoami 64 Dec 15 00:55 0 -> /dev/pts/0
+lrwx------ 1 whoami whoami 64 Dec 15 00:55 1 -> /dev/pts/0
+lrwx------ 1 whoami whoami 64 Dec 15 00:55 2 -> /dev/pts/0
+lrwx------ 1 whoami whoami 64 Dec 15 00:55 255 -> /dev/pts/0

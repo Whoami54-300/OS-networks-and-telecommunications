@@ -1,0 +1,4 @@
+tr '\0' ' ' < /proc/$$/cmdline > 09_3.txt 2>&1
+
+
+bash 

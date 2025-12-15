@@ -1,0 +1,6 @@
+free > 07_1.txt 2>&1
+
+
+               total        used        free      shared  buff/cache   available
+Mem:        31800084     7230576    21687464      385544     3704636    24569508
+Swap:        7813116           0     7813116
