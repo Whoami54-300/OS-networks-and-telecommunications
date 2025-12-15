@@ -1,0 +1,9 @@
+1..5 | % { (Measure-Command { dir }).TotalMilliseconds }) | Measure-Object -Min -Max -Average
+
+
+Count    : 5
+Average  : 0,74552
+Sum      :
+Maximum  : 1,8281
+Minimum  : 0,3915
+Property :

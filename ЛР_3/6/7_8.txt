@@ -1,0 +1,320 @@
+﻿
+Name                            PriorityClass ProductVersion           
+----                            ------------- --------------           
+adb                                                                    
+AggregatorHost                                                         
+aihost                                                                 
+AIXHost                         Normal        2125.27202.0.0           
+AmneziaVPN                      Normal        4.8.9.2                  
+AmneziaVPN-service                                                     
+AmneziaVPN-service                                                     
+AppActions                      Normal                                 
+ApplicationFrameHost            Normal        10.0.26100.7019          
+AsusAppService                                                         
+AsusOptimization                                                       
+AsusOptimizationStartupTask     Normal        2.1.68.0                 
+AsusOSD                                                                
+AsusPTPService                                                         
+AsusScreenXpertHostService                                             
+AsusScreenXpertUI                                                      
+AsusSoftwareManager                                                    
+AsusSoftwareManagerAgent                                               
+AsusSwitch                                                             
+AsusSystemAnalysis                                                     
+AsusSystemDiagnosis                                                    
+backgroundTaskHost              Normal        10.0.26100.1             
+backgroundTaskHost              Normal        10.0.26100.1             
+backgroundTaskHost              Normal        10.0.26100.1             
+backgroundTaskHost              Normal        10.0.26100.1             
+backgroundTaskHost              Normal        10.0.26100.1             
+backgroundTaskHost              Normal        10.0.26100.1             
+backgroundTaskHost              Normal        10.0.26100.1             
+backgroundTaskHost              Normal        10.0.26100.1             
+backgroundTaskHost              Normal        10.0.26100.1             
+backgroundTaskHost              Normal        10.0.26100.1             
+backgroundTaskHost              Normal        10.0.26100.1             
+browser                         Normal        25.10.2.1176             
+browser                         Normal        25.10.2.1176             
+browser                         Normal        25.10.2.1176             
+browser                         AboveNormal   25.10.2.1176             
+browser                         Normal        25.10.2.1176             
+browser                         Normal        25.10.2.1176             
+browser                         Normal        25.10.2.1176             
+browser                         Idle          25.10.2.1176             
+chrome                          Idle          142.0.7444.176           
+chrome                          Idle          142.0.7444.176           
+chrome                          Normal        142.0.7444.176           
+chrome                          Idle          142.0.7444.176           
+chrome                          Idle          142.0.7444.176           
+chrome                          Idle          142.0.7444.176           
+chrome                          Idle          142.0.7444.176           
+chrome                          Idle          142.0.7444.176           
+chrome                          Idle          142.0.7444.176           
+chrome                          Idle          142.0.7444.176           
+chrome                          Normal        142.0.7444.176           
+chrome                          Idle          142.0.7444.176           
+chrome                          Idle          142.0.7444.176           
+chrome                          Idle          142.0.7444.176           
+chrome                          Idle          142.0.7444.176           
+chrome                          Idle          142.0.7444.176           
+chrome                          Idle          142.0.7444.176           
+chrome                          Idle          142.0.7444.176           
+chrome                          Idle          142.0.7444.176           
+chrome                          Idle          142.0.7444.176           
+chrome                          Idle          142.0.7444.176           
+chrome                          Idle          142.0.7444.176           
+chrome                          Idle          142.0.7444.176           
+chrome                          Idle          142.0.7444.176           
+chrome                          Normal        142.0.7444.176           
+chrome                          AboveNormal   142.0.7444.176           
+chrome                          Idle          142.0.7444.176           
+chrome                          Idle          142.0.7444.176           
+chrome                          Idle          142.0.7444.176           
+chrome                          Idle          142.0.7444.176           
+chrome                          Idle          142.0.7444.176           
+chrome                          Idle          142.0.7444.176           
+chrome                          Idle          142.0.7444.176           
+chrome                          Idle          142.0.7444.176           
+chrome                          Idle          142.0.7444.176           
+chrome                          Idle          142.0.7444.176           
+chrome                          Normal        142.0.7444.176           
+chrome                          Idle          142.0.7444.176           
+chrome                          Normal        142.0.7444.176           
+chrome                          Normal        142.0.7444.176           
+chrome                          Normal        142.0.7444.176           
+CirrusLogicAudioDeviceDashboard Idle          1.0.0+50a620d17f5815a5...
+ClickToDo                       Normal        2125.26801.0.0           
+conhost                                                                
+conhost                                                                
+conhost                                                                
+CrossDeviceResume               Normal        2125.27603.0.0           
+CrossDeviceService              Normal        1.25102.46+1deb8c2c2db...
+csrss                                                                  
+csrss                                                                  
+ctfmon                                                                 
+dasHost                                                                
+dwm                                                                    
+explorer                        Normal        10.0.26100.7015          
+FileCoAuth                      Normal        25.216.1104.0002         
+fontdrvhost                                                            
+fontdrvhost                                                            
+GlideXNearService                                                      
+GlideXRemoteService                                                    
+GlideXService                                                          
+GlideXServiceExt                                                       
+ICPS                            Normal        40.25.725.165            
+IDBWM                                                                  
+IDBWMService                                                           
+Intel_PIE_Service                                                      
+IntelAnalyticsService                                                  
+IntelAudioService                                                      
+IntelConnect                                                           
+IntelConnectivityNetworkService                                        
+IntelConnectService                                                    
+IntelGraphicsSoftware.Service                                          
+IntelProviderDataHelperService                                         
+ipf_helper                      Normal        1.0.11702.1514           
+ipf_uf                                                                 
+ipfsvc                                                                 
+LockApp                         Normal        10.0.26100.7019          
+LsaIso                                                                 
+lsass                                                                  
+Memory Compression                                                     
+MoNotificationUx                Normal        1505.2510.14022.1        
+MoUsoCoreWorker                                                        
+MpDefenderCoreService                                                  
+msedge                          Normal        143.0.3650.66            
+msedge                          AboveNormal   143.0.3650.66            
+msedge                          Normal        143.0.3650.66            
+msedge                          Normal        143.0.3650.66            
+msedge                          Normal        143.0.3650.66            
+msedgewebview2                  Normal        142.0.3595.94            
+msedgewebview2                  Normal        142.0.3595.94            
+msedgewebview2                  AboveNormal   142.0.3595.94            
+msedgewebview2                  Normal        142.0.3595.94            
+msedgewebview2                  Normal        142.0.3595.94            
+msedgewebview2                  Normal        142.0.3595.94            
+msedgewebview2                  Normal        142.0.3595.94            
+msedgewebview2                  Normal        142.0.3595.94            
+msedgewebview2                  AboveNormal   142.0.3595.94            
+msedgewebview2                  Normal        142.0.3595.94            
+msedgewebview2                  Normal        142.0.3595.94            
+msedgewebview2                  Normal        142.0.3595.94            
+msedgewebview2                  Normal        142.0.3595.94            
+MsMpEng                                                                
+ms-teams                        Normal        25198.1109.3837.4725     
+NgcIso                                                                 
+NisSrv                                                                 
+Notepad                         Normal        11.2508.38.0             
+OfficeClickToRun                                                       
+OffloadItemService                                                     
+OneApp.IGCC.WinService                                                 
+OneDrive                        Normal        25.216.1104.0002         
+OneDrive.Sync.Service           Normal        25.216.1104.0002         
+OpenConsole                     Normal        1.23.251008001           
+PhoneExperienceHost             Normal        1.25102.64+8a7ac1b896d...
+powershell                      Normal        10.0.26100.7015          
+PresentMonService                                                      
+Registry                                                               
+RtkAudUService64                Normal        1.1.683.1                
+RtkAudUService64                                                       
+RtkAudUService64                                                       
+RuntimeBroker                   Normal        10.0.26100.7019          
+RuntimeBroker                   Normal        10.0.26100.7019          
+RuntimeBroker                   Normal        10.0.26100.7019          
+RuntimeBroker                   Normal        10.0.26100.7019          
+SearchFilterHost                                                       
+SearchFilterHost                                                       
+SearchFilterHost                                                       
+SearchHost                      Normal        2125.27506.20.0          
+SearchIndexer                                                          
+SearchProtocolHost                                                     
+Secure System                                                          
+SecurityHealthService                                                  
+SecurityHealthSystray           Normal        10.0.26100.1882          
+service_update                                                         
+service_update                                                         
+services                                                               
+ShellHost                       Normal        10.0.26100.7019          
+sihost                          Normal        10.0.26100.7019          
+smartscreen                     Normal        10.0.26100.7015          
+smss                                                                   
+spacedeskService                                                       
+spacedeskServiceTray            Normal        0.2.2.08                 
+spoolsv                                                                
+StartMenuExperienceHost         Normal        10.0.26100.7019          
+StoryCubeService                                                       
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                         Normal        10.0.26100.7015          
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                         Normal        10.0.26100.7015          
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                         Normal        10.0.26100.7015          
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                         Normal        10.0.26100.7015          
+svchost                         Normal        10.0.26100.7015          
+svchost                                                                
+svchost                                                                
+svchost                         Normal        10.0.26100.7015          
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                         Normal        10.0.26100.7015          
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                         Normal        10.0.26100.7015          
+svchost                         Normal        10.0.26100.7015          
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+svchost                                                                
+SystemSettings                  Normal        10.0.26100.7015          
+taskhostw                       Normal        10.0.26100.7015          
+Telegram                        Normal        6.3.4.0                  
+TextInputHost                   High          2125.27300.0.0           
+TiWorker                                                               
+TrustedInstaller                                                       
+unsecapp                                                               
+UserOOBEBroker                  Normal        10.0.26100.7019          
+wallpaper64                     Normal        2.7.0.3                  
+wallpaperservice32                                                     
+Widgets                         Normal        525.31002.10.0           
+WidgetService                   Normal        0.5                      
+WindowsTerminal                 Normal        1.23.251008001           
+wininit                                                                
+winlogon                                                               
+wlanext                                                                
+WmiApSrv                                                               
+WmiPrvSE                                                               
+WmiPrvSE                                                               
+WMIRegistrationService                                                 
+WorkloadsSessionHost                                                   
+WorkloadsSessionHost                                                   
+WorkloadsSessionHost                                                   
+WorkloadsSessionHost                                                   
+WorkloadsSessionHost                                                   
+WorkloadsSessionHost                                                   
+WorkloadsSessionHost                                                   
+WorkloadsSessionManager                                                
+WUDFCompanionHost                                                      
+WUDFCompanionHost                                                      
+WUDFCompanionHost                                                      
+WUDFHost                                                               
+WUDFHost                                                               
+WUDFHost                                                               
+WUDFHost                                                               
+WUDFHost                                                               
+WUDFHost                                                               
+
+

@@ -1,0 +1,9 @@
+Get-WmiObject Win32_Processor
+
+
+Caption           : Intel64 Family 6 Model 189 Stepping 1
+DeviceID          : CPU0
+Manufacturer      : GenuineIntel
+MaxClockSpeed     : 2200
+Name              : Intel(R) Core(TM) Ultra 7 258V
+SocketDesignation : U3E1

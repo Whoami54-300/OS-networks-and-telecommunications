@@ -1,0 +1,325 @@
+﻿
+   Id Name                            StartTime          
+   -- ----                            ---------          
+ 3156 svchost                                            
+ 3164 svchost                                            
+ 3084 svchost                                            
+ 3092 svchost                                            
+ 3428 svchost                                            
+ 3436 svchost                                            
+ 3172 svchost                                            
+ 3348 svchost                                            
+ 2708 svchost                                            
+ 2392 svchost                                            
+ 2408 svchost                                            
+ 2156 svchost                                            
+ 2308 svchost                                            
+ 2660 svchost                                            
+ 2692 svchost                                            
+ 2440 svchost                                            
+ 2564 svchost                                            
+ 3528 svchost                                            
+ 4900 svchost                                            
+ 5036 svchost                                            
+ 4780 svchost                                            
+ 4836 svchost                                            
+ 5348 svchost                                            
+ 5764 svchost                                            
+ 5244 svchost                                            
+ 5284 svchost                                            
+ 4468 svchost                                            
+ 3740 svchost                                            
+ 3792 svchost                                            
+ 3576 svchost                                            
+ 3628 svchost                                            
+ 4220 svchost                                            
+ 4296 svchost                                            
+ 3896 svchost                                            
+ 3988 svchost                                            
+ 2140 svchost                                            
+24440 SearchFilterHost                                   
+24560 SearchFilterHost                                   
+ 9744 WUDFHost                                           
+19920 SearchFilterHost                                   
+  140 Secure System                                      
+17476 SecurityHealthService                              
+10496 SearchIndexer                                      
+ 9356 SearchProtocolHost                                 
+ 7072 RtkAudUService64                                   
+ 5424 OfficeClickToRun                                   
+ 2484 OffloadItemService                                 
+ 4436 NgcIso                                             
+10380 NisSrv                                             
+  184 Registry                                           
+ 5836 RtkAudUService64                                   
+ 5596 OneApp.IGCC.WinService                             
+ 5900 PresentMonService                                  
+ 6248 service_update                                     
+ 1844 svchost                                            
+ 1996 svchost                                            
+ 1788 svchost                                            
+ 1804 svchost                                            
+ 2124 svchost                                            
+ 2128 svchost                                            
+ 2012 svchost                                            
+ 2092 svchost                                            
+ 1644 svchost                                            
+  692 smss                                               
+ 5852 spacedeskService                                   
+ 6924 service_update                                     
+ 1460 services                                           
+  872 svchost                                            
+ 1608 svchost                                            
+ 3524 spoolsv                                            
+ 5912 StoryCubeService                                   
+ 6480 wallpaperservice32                                 
+ 1340 wininit                                            
+17892 updater                                            
+23992 updater                                            
+13176 WmiApSrv                                           
+ 6584 WmiPrvSE                                           
+ 1436 winlogon                                           
+ 9448 wlanext                                            
+13188 updater                                            
+20756 svchost                                            
+24248 svchost                                            
+19868 svchost                                            
+20652 svchost                                            
+ 4928 unsecapp                                           
+ 7396 updater                                            
+20580 TiWorker                                           
+  624 TrustedInstaller                                   
+24356 WmiPrvSE                                           
+ 5384 WUDFCompanionHost                                  
+ 3916 WUDFHost                                           
+ 1764 WUDFCompanionHost                                  
+ 4404 WUDFCompanionHost                                  
+ 6888 WUDFHost                                           
+ 8112 WUDFHost                                           
+ 4100 WUDFHost                                           
+ 4488 WUDFHost                                           
+12100 WorkloadsSessionManager                            
+ 5260 WorkloadsSessionHost                               
+ 7272 WorkloadsSessionHost                               
+ 6120 WMIRegistrationService                             
+ 3556 WorkloadsSessionHost                               
+11704 WorkloadsSessionHost                               
+13624 WorkloadsSessionHost                               
+ 7412 WorkloadsSessionHost                               
+ 9836 WorkloadsSessionHost                               
+19716 svchost                                            
+ 7832 svchost                                            
+ 8032 svchost                                            
+ 7048 svchost                                            
+ 7560 svchost                                            
+ 9876 svchost                                            
+ 9992 svchost                                            
+ 8892 svchost                                            
+ 9592 svchost                                            
+ 6996 svchost                                            
+ 6020 svchost                                            
+ 6108 svchost                                            
+ 5940 svchost                                            
+ 6016 svchost                                            
+ 6780 svchost                                            
+ 6804 svchost                                            
+ 6392 svchost                                            
+ 6640 svchost                                            
+10076 svchost                                            
+15124 svchost                                            
+15164 svchost                                            
+13952 svchost                                            
+14936 svchost                                            
+17436 svchost                                            
+18664 svchost                                            
+15236 svchost                                            
+15272 svchost                                            
+13820 svchost                                            
+11252 svchost                                            
+11452 svchost                                            
+10084 svchost                                            
+10916 svchost                                            
+13596 svchost                                            
+13664 svchost                                            
+11648 svchost                                            
+12452 svchost                                            
+ 5148 IntelConnectService                                
+ 9472 IntelGraphicsSoftware.Service                      
+16280 IntelProviderDataHelperService                     
+14004 IntelConnectivityNetworkService                    
+11052 IntelAnalyticsService                              
+ 5608 IntelAudioService                                  
+17908 IntelConnect                                       
+ 3292 Memory Compression                                 
+22416 MoUsoCoreWorker                                    
+ 5876 MpDefenderCoreService                              
+ 1512 lsass                                              
+ 5812 ipf_uf                                             
+ 5416 ipfsvc                                             
+ 1504 LsaIso                                             
+ 9932 Intel_PIE_Service                                  
+ 1348 csrss                                              
+13728 dasHost                                            
+ 1936 dwm                                                
+ 1236 csrss                                              
+ 6164 conhost                                            
+14984 conhost                                            
+18820 conhost                                            
+ 5484 GlideXServiceExt                                   
+17700 IDBWM                                              
+14932 IDBWMService                                       
+ 5512 GlideXService                                      
+ 1676 fontdrvhost                                        
+ 1680 fontdrvhost                                        
+ 5404 GlideXNearService                                  
+23252 adb                                                
+ 5168 AsusSoftwareManager                                
+ 7332 AsusScreenXpertUI                                  
+ 5252 AsusSystemAnalysis                                 
+ 5196 AsusSwitch                                         
+ 6216 MsMpEng                                            
+ 3976 AsusOptimization                                   
+ 2588 AmneziaVPN-service                                 
+14156 AmneziaVPN-service                                 
+ 5188 AsusScreenXpertHostService                         
+ 5204 AsusPTPService                                     
+10468 AggregatorHost                                     
+ 5432 GlideXRemoteService                                
+ 5224 AsusAppService                                     
+ 5268 AsusSystemDiagnosis                                
+ 4176 sihost                          05.12.2025 11:06:49
+ 4240 svchost                         05.12.2025 11:06:49
+ 4388 svchost                         05.12.2025 11:06:49
+ 4480 svchost                         05.12.2025 11:06:49
+ 5112 taskhostw                       05.12.2025 11:06:49
+ 6820 spacedeskServiceTray            05.12.2025 11:06:50
+ 6952 AsusOptimizationStartupTask     05.12.2025 11:06:50
+ 7540 wallpaper64                     05.12.2025 11:06:50
+ 7980 ipf_helper                      05.12.2025 11:06:50
+10128 svchost                         05.12.2025 11:06:53
+10540 explorer                        05.12.2025 11:06:54
+10652 ShellHost                       05.12.2025 11:06:54
+11060 ClickToDo                       05.12.2025 11:06:55
+11208 AIXHost                         05.12.2025 11:06:55
+ 8504 CrossDeviceResume               05.12.2025 11:06:55
+11028 aihost                          05.12.2025 11:06:55
+11932 svchost                         05.12.2025 11:06:58
+12516 StartMenuExperienceHost         05.12.2025 11:06:59
+12760 svchost                         05.12.2025 11:06:59
+12832 Widgets                         05.12.2025 11:06:59
+15228 TextInputHost                   05.12.2025 11:07:09
+10252 ctfmon                          05.12.2025 11:07:11
+11912 chrome                          05.12.2025 11:07:11
+ 8468 chrome                          05.12.2025 11:07:11
+ 8448 chrome                          05.12.2025 11:07:11
+12228 chrome                          05.12.2025 11:07:11
+12264 chrome                          05.12.2025 11:07:11
+16644 chrome                          05.12.2025 11:07:14
+16904 chrome                          05.12.2025 11:07:14
+17304 chrome                          05.12.2025 11:07:16
+17320 chrome                          05.12.2025 11:07:16
+17052 chrome                          05.12.2025 11:07:19
+16160 chrome                          05.12.2025 11:07:21
+17268 chrome                          05.12.2025 11:07:22
+16520 chrome                          05.12.2025 11:07:23
+15760 chrome                          05.12.2025 11:07:24
+13012 chrome                          05.12.2025 11:07:25
+15972 chrome                          05.12.2025 11:07:26
+16436 chrome                          05.12.2025 11:07:27
+ 2432 chrome                          05.12.2025 11:07:28
+ 6240 chrome                          05.12.2025 11:07:29
+16480 chrome                          05.12.2025 11:07:31
+16508 chrome                          05.12.2025 11:07:32
+14204 chrome                          05.12.2025 11:07:35
+17456 SecurityHealthSystray           05.12.2025 11:07:37
+17536 RtkAudUService64                05.12.2025 11:07:38
+16700 chrome                          05.12.2025 11:07:40
+11724 chrome                          05.12.2025 11:07:41
+13284 chrome                          05.12.2025 11:07:41
+15336 chrome                          05.12.2025 11:07:41
+ 7092 chrome                          05.12.2025 11:07:45
+19096 chrome                          05.12.2025 11:07:47
+19276 chrome                          05.12.2025 11:07:47
+19380 chrome                          05.12.2025 11:07:47
+ 2088 CirrusLogicAudioDeviceDashboard 05.12.2025 11:07:48
+ 1576 chrome                          05.12.2025 11:07:48
+ 3208 chrome                          05.12.2025 11:07:48
+18796 chrome                          05.12.2025 11:07:49
+ 4132 AsusOSD                         05.12.2025 11:07:53
+11440 CrossDeviceService              05.12.2025 11:08:03
+17372 RuntimeBroker                   05.12.2025 11:08:05
+ 6752 svchost                         05.12.2025 11:08:49
+19596 ICPS                            05.12.2025 11:08:58
+ 5132 AsusSoftwareManagerAgent        05.12.2025 11:11:50
+12048 ApplicationFrameHost            05.12.2025 11:13:09
+18284 svchost                         05.12.2025 11:13:12
+18356 AppActions                      05.12.2025 11:16:51
+20208 WidgetService                   05.12.2025 11:22:01
+ 2520 chrome                          05.12.2025 11:24:30
+20888 AmneziaVPN                      05.12.2025 11:27:09
+10952 PhoneExperienceHost             05.12.2025 11:27:18
+ 8420 LockApp                         05.12.2025 11:38:52
+ 3068 RuntimeBroker                   05.12.2025 11:38:52
+12524 svchost                         05.12.2025 12:35:04
+19908 chrome                          05.12.2025 13:35:33
+11048 Telegram                        05.12.2025 13:35:35
+14648 UserOOBEBroker                  05.12.2025 13:39:59
+18300 ms-teams                        05.12.2025 13:40:13
+14164 RuntimeBroker                   05.12.2025 13:40:14
+ 2528 msedgewebview2                  05.12.2025 13:40:14
+ 9168 msedgewebview2                  05.12.2025 13:40:14
+11996 msedgewebview2                  05.12.2025 13:40:14
+ 8252 msedgewebview2                  05.12.2025 13:40:14
+ 9892 msedgewebview2                  05.12.2025 13:40:14
+15548 msedgewebview2                  05.12.2025 13:40:14
+16460 msedgewebview2                  05.12.2025 13:40:30
+13656 backgroundTaskHost              05.12.2025 16:56:40
+ 5568 chrome                          05.12.2025 18:18:50
+21712 MoNotificationUx                07.12.2025 9:10:41 
+22960 OneDrive                        07.12.2025 9:59:38 
+24672 OneDrive.Sync.Service           07.12.2025 9:59:39 
+ 5720 backgroundTaskHost              07.12.2025 10:14:26
+ 6056 FileCoAuth                      07.12.2025 11:03:24
+ 8180 msedge                          07.12.2025 20:56:30
+23216 msedge                          07.12.2025 20:56:30
+24308 msedge                          07.12.2025 20:56:30
+ 1048 msedge                          07.12.2025 20:56:30
+10712 msedge                          07.12.2025 20:56:30
+25156 browser                         07.12.2025 22:20:17
+ 9344 browser                         07.12.2025 22:20:17
+25112 browser                         07.12.2025 22:20:18
+ 9984 browser                         07.12.2025 22:20:18
+23964 browser                         07.12.2025 22:20:18
+12768 browser                         07.12.2025 22:20:18
+24100 browser                         07.12.2025 22:22:18
+10220 browser                         07.12.2025 22:27:04
+ 7556 backgroundTaskHost              07.12.2025 23:11:49
+18112 backgroundTaskHost              08.12.2025 0:12:28 
+ 4548 chrome                          08.12.2025 0:26:33 
+14636 backgroundTaskHost              08.12.2025 0:52:08 
+21884 chrome                          08.12.2025 4:53:12 
+24420 backgroundTaskHost              08.12.2025 4:56:28 
+24568 chrome                          08.12.2025 5:25:07 
+23520 backgroundTaskHost              08.12.2025 5:26:42 
+15852 chrome                          08.12.2025 6:06:41 
+23272 chrome                          08.12.2025 6:06:41 
+18544 SystemSettings                  08.12.2025 6:07:52 
+20468 backgroundTaskHost              08.12.2025 6:11:42 
+19052 WindowsTerminal                 08.12.2025 6:20:31 
+ 6416 SearchHost                      08.12.2025 6:20:33 
+ 8532 msedgewebview2                  08.12.2025 6:20:33 
+ 9376 msedgewebview2                  08.12.2025 6:20:33 
+ 3596 msedgewebview2                  08.12.2025 6:20:34 
+19968 msedgewebview2                  08.12.2025 6:20:34 
+17736 msedgewebview2                  08.12.2025 6:20:34 
+24760 msedgewebview2                  08.12.2025 6:20:34 
+25288 OpenConsole                     08.12.2025 6:26:19 
+ 4068 powershell                      08.12.2025 6:26:19 
+  944 smartscreen                     08.12.2025 6:55:53 
+ 3412 Notepad                         08.12.2025 6:55:53 
+10492 backgroundTaskHost              08.12.2025 6:56:28 
+12700 backgroundTaskHost              08.12.2025 6:56:28 
+13716 backgroundTaskHost              08.12.2025 6:56:28 
+ 9508 RuntimeBroker                   08.12.2025 6:56:28 
+
+
