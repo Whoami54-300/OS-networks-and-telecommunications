@@ -1,9 +1,21 @@
-1..5 | % { (Measure-Command { dir }).TotalMilliseconds }) | Measure-Object -Min -Max -Average
+1..5 | ForEach-Object { (Measure-Command { dir }).TotalMilliseconds } | Measure-Object -Minimum -Maximum -Average
 
 
 Count    : 5
-Average  : 0,74552
+Average  : 8,12876
 Sum      :
-Maximum  : 1,8281
-Minimum  : 0,3915
+Maximum  : 37,4721
+Minimum  : 0,666
+Property :
+
+
+
+1..5 | ForEach-Object { (Measure-Command { ps }).TotalMilliseconds } | Measure-Object -Minimum -Maximum -Average
+
+
+Count    : 5
+Average  : 18,7521
+Sum      :
+Maximum  : 38,0044
+Minimum  : 9,961
 Property :

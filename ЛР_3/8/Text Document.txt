@@ -1,11 +1,12 @@
-Get-ChildItem $env:windir -Recurse -ErrorAction SilentlyContinue |
+Get-ChildItem -Path $env:WINDIR -Recurse -ErrorAction SilentlyContinue |
     Where-Object { -not $_.PSIsContainer -and ($_.Extension -eq ".bmp" -or $_.Extension -eq ".jpg") } |
     Measure-Object -Property Length -Sum
 
 
-Count    : 266
+
+Count    : 256
 Average  :
-Sum      : 141444266
+Sum      : 141070947
 Maximum  :
 Minimum  :
 Property : Length

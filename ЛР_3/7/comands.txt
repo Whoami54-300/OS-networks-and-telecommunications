@@ -1,0 +1,38 @@
+Get-Process |
+  Where-Object { $_.BasePriority -gt 7 } |
+  Sort-Object ProcessName |
+  Select-Object ProcessName, BasePriority, Company |
+  ConvertTo-Html |
+  Out-File L3_brig1_4.html
+
+
+Get-Process |
+  Where-Object { $_.Id -gt 40 } |
+  Sort-Object StartTime |
+  Select-Object Id, ProcessName, StartTime |
+  ConvertTo-Html |
+  Out-File L3_brig2_6.html
+
+
+Get-Process |
+  Where-Object { $_.Id -gt 100 } |
+  Sort-Object TotalProcessorTime |
+  Select-Object ProcessName, Id, PriorityClass, UserProcessorTime, TotalProcessorTime |
+  ConvertTo-Html |
+  Out-File L3_brig3_5.html
+
+
+Get-Process |
+  Where-Object { $_.Id -gt 100 } |
+  Sort-Object ProcessName |
+  Select-Object ProcessName, PriorityClass, ProductVersion, Id |
+  ConvertTo-Html |
+  Out-File L3_brig7_8.html
+
+
+Get-Process |
+  Where-Object { $_.CPU -gt 5 } |
+  Sort-Object Id |
+  Select-Object Id, ProcessName, WorkingSet, CPU |
+  ConvertTo-Html |
+  Out-File L3_brig9_10.html
